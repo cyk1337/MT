@@ -50,6 +50,15 @@ class EncoderDecoder(Chain):
         - Explain the following lines of code
         - Think about what add_link() does and how can we access Links added in Chainer.
         - Why are there two loops or adding links?
+        # =============================
+        1. Initialise the bi-lstm layers according to hidden encoder layer numbers.
+        2.  add_link() add layers for our neural nets (which is deprecated for version 2.0.0, 
+        currently replaced by `chainer.Chain.init_scope`). 
+        # TODO
+        how can we access Links added in Chainer???
+        ??
+        3. Two loops corresponds to bi-lstm encoder, left-to-right and right-to-left repectively.
+         # =============================
         '''
         self.lstm_enc = ["L{0:d}_enc".format(i) for i in range(nlayers_enc)]
         for lstm_name in self.lstm_enc:
@@ -70,11 +79,15 @@ class EncoderDecoder(Chain):
         '''
         ___QUESTION-1-DESCRIBE-B-START___
         Comment on the input and output sizes of the following layers:
-        - L.EmbedID(vsize_dec, 2*n_units)
-        - L.LSTM(2*n_units, 2*n_units)
-        - L.Linear(2*n_units, vsize_dec)
-
+        - L.EmbedID(vsize_dec, 2*n_units)  -> (3713, 200)
+        - L.LSTM(2*n_units, 2*n_units)     -> (200, 200)
+        - L.Linear(2*n_units, vsize_dec)   -> (200,3713) 
+        
         Why are we using multipliers over the base number of units (n_units)?
+        # ===========
+        # TODO
+        because of bi-lstm? 
+        # =============================
         '''
 
         self.add_link("embed_dec", L.EmbedID(vsize_dec, 2*n_units))
@@ -113,6 +126,10 @@ class EncoderDecoder(Chain):
         ___QUESTION-1-DESCRIBE-C-START___
 
         Describe what the function set_decoder_state() is doing. What are c_state and h_state?
+        # =============================
+        Concatenate the final state of bi-lstm, both last cell states and last hidden states, 
+        and set this as the first cell and hidden state as the first state of decoder.
+        # =============================
     '''
     def set_decoder_state(self):
         xp = cuda.cupy if self.gpuid >= 0 else np
@@ -167,6 +184,9 @@ class EncoderDecoder(Chain):
             ___QUESTION-1-DESCRIBE-D-START___
 
             - Explain why we are performing two encode operations
+            # =============================
+            encode forward and reverse direction of encoders
+            # =============================
             '''
             self.encode(f_word, self.lstm_enc, train)
             self.encode(r_word, self.lstm_rev_enc, train)
@@ -252,6 +272,10 @@ class EncoderDecoder(Chain):
             ___QUESTION-1-DESCRIBE-E-START___
             Explain what loss is computed with an example
             What does this value mean?
+            # =============================
+            1. cross entropy loss. -\sum_{c=1}^My_{o,c}\log(p_{o,c})
+            2. measure the divergence between the predicted words and next label words with a probability between 0 and 1.
+            # =============================
             '''
             self.loss += F.softmax_cross_entropy(predicted_out, next_word_var)
             '''___QUESTION-1-DESCRIBE-E-END___'''

@@ -73,6 +73,11 @@ optimizer_sgd.setup(model)
 ___QUESTION-1-DESCRIBE-F-START___
 
 - Describe what the following lines of code do
+# =============================
+set L2 normalization threshold to 5, 
+#TODO ----
+for what??
+# =============================
 '''
 optimizer_adam.add_hook(chainer.optimizer.GradientClipping(threshold=5))
 optimizer_sgd.add_hook(chainer.optimizer.GradientClipping(threshold=5))

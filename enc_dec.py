@@ -55,7 +55,7 @@ class EncoderDecoder(Chain):
         2.  add_link() add layers for our neural nets (which is deprecated for version 2.0.0, 
         currently replaced by `chainer.Chain.init_scope`). 
         # TODO
-        how can we access Links added in Chainer???
+        how can we access Links added in Chainer??? 
         ??
         3. Two loops corresponds to bi-lstm encoder, left-to-right and right-to-left repectively.
          # =============================

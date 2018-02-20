@@ -273,6 +273,10 @@ class EncoderDecoder(Chain):
             Explain what loss is computed with an example
             What does this value mean?
             # =============================
+            [Piazza]
+            Explain what softmax cross entropy is (in relation to the task of MT). 
+            You may find it useful to include a toy problem but it is not needed. 
+            ----------
             1. cross entropy loss. -\sum_{c=1}^My_{o,c}\log(p_{o,c})
             2. measure the divergence between the predicted words and next label words with a probability between 0 and 1.
             # =============================

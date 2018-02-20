@@ -217,6 +217,7 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
 
                     it = (epoch * NUM_TRAINING_SENTENCES) + i
 
+
                     if i > num_training:
                         break
 

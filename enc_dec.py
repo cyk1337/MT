@@ -328,6 +328,10 @@ class EncoderDecoder(Chain):
         # encode list of words/tokens
         in_word_list_no_padding = [w for w in in_word_list if w != PAD_ID]
         enc_states = self.encode_list(in_word_list, train=False)
+        # add dropout
+        with chainer.using_config('train', True):
+            enc_states = F.dropout(enc_states, 0.2)
+
         # initialize decoder LSTM to final encoder state
         self.set_decoder_state()
         # decode starting with GO_ID

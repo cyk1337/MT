@@ -273,6 +273,7 @@ class EncoderDecoder(Chain):
             Explain what loss is computed with an example
             What does this value mean?
             # =============================
+          
             [Piazza]
             Explain what softmax cross entropy is (in relation to the task of MT). 
             You may find it useful to include a toy problem but it is not needed. 

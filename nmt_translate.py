@@ -282,6 +282,9 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
     # make predictions over both training and dev sets
     print("Training set predictions")
     _ = predict(s=10000, num=1, plot=True)
+    print('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+    print('='*80)
+
 
     _ = predict(s=0, num=3, plot=False)
     print("{0:s}".format("-"*50))

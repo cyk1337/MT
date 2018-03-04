@@ -99,7 +99,7 @@ class EncoderDecoder(Chain):
 
         if attn > 0:
             # __QUESTION Add attention
-            pass
+            self.add_link('Glob_att', L.Linear(4*n_units, 2*n_units))
 
         # Save the attention preference
         # __QUESTION you should use this flag to check if attention
@@ -262,7 +262,12 @@ class EncoderDecoder(Chain):
                 predicted_out = self.out(self[self.lstm_dec[-1]].h)
             else:
                 # __QUESTION Add attention
-                pass
+                # pass
+                score_t = F.reshape(F.matmul(enc_states, self[self.lstm_dec[-1]].h.T), (1,-1))
+                context_t = F.matmul(F.softmax(score_t), enc_states)
+                att_out = self['Glob_att'](F.concat((self[self.lstm_dec[-1]].h, context_t)))
+                h_t_tilde = F.tanh(att_out)
+                predicted_out = self.out(h_t_tilde)
 
             # compute loss
             prob = F.softmax(predicted_out)
@@ -311,7 +316,15 @@ class EncoderDecoder(Chain):
                 prob = F.softmax(self.out(self[self.lstm_dec[-1]].h))
             else:
                 # __QUESTION Add attention
-                pass
+                score_t = F.reshape(F.matmul(enc_states, self[self.lstm_dec[-1]].h.T), (1, -1))
+                att_t = F.softmax(score_t)
+                context_t = F.matmul(att_t, enc_states)
+                # save att
+                alpha_arr = np.append(alpha_arr, att_t)
+                att_out = self['Glob_att'](F.concat((self[self.lstm_dec[-1]].h, context_t)))
+                h_t_tilde = F.tanh(att_out)
+                predicted_out = self.out(h_t_tilde)
+                prob = F.softmax(predicted_out)
 
             pred_word = self.select_word(prob, train=False, sample=sample)
             # add integer id of predicted word to output list
@@ -329,10 +342,11 @@ class EncoderDecoder(Chain):
         # encode list of words/tokens
         in_word_list_no_padding = [w for w in in_word_list if w != PAD_ID]
         enc_states = self.encode_list(in_word_list, train=False)
-        # add dropout
-        with chainer.using_config('train', True):
-            enc_states = F.dropout(enc_states, 0.2)
-
+        # # add dropout
+        #=======================
+        # with chainer.using_config('train', True):
+        #     enc_states = F.dropout(enc_states, 0.2)
+        # ======================
         # initialize decoder LSTM to final encoder state
         self.set_decoder_state()
         # decode starting with GO_ID

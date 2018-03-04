@@ -320,7 +320,7 @@ class EncoderDecoder(Chain):
                 att_t = F.softmax(score_t)
                 context_t = F.matmul(att_t, enc_states)
                 # save att
-                alpha_arr = np.append(alpha_arr, att_t)
+                alpha_arr = np.append(alpha_arr, att_t.data, axis=0)
                 att_out = self['Glob_att'](F.concat((self[self.lstm_dec[-1]].h, context_t)))
                 h_t_tilde = F.tanh(att_out)
                 predicted_out = self.out(h_t_tilde)

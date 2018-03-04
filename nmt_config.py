@@ -85,8 +85,10 @@ if USE_ALL_DATA:
 else:
   # number of training examples to use
   NUM_TRAINING_SENTENCES = 1000
+  # NUM_TRAINING_SENTENCES = 10
   # number of validation examples to use
   NUM_DEV_SENTENCES = 100
+  # NUM_DEV_SENTENCES = 1
 #---------------------------------------------------------------------
 # Model Parameters
 #---------------------------------------------------------------------

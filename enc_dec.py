@@ -262,9 +262,9 @@ class EncoderDecoder(Chain):
         for next_word_var in var_dec[1:]:
             self.decode(pred_word, train=train)
             if self.attn == NO_ATTN:
-                # predicted_out = self.out(self[self.lstm_dec[-1]].h)
-                with chainer.using_config('train', train):
-                    predicted_out = self.out(F.dropout(self[self.lstm_dec[-1]].h, dropout_ratio))
+                predicted_out = self.out(self[self.lstm_dec[-1]].h)
+                # with chainer.using_config('train', train):
+                #     predicted_out = self.out(F.dropout(self[self.lstm_dec[-1]].h, dropout_ratio))
             else:
                 # __QUESTION Add attention
                 # pass
@@ -272,10 +272,12 @@ class EncoderDecoder(Chain):
                 context_t = F.matmul(F.softmax(score_t), enc_states)
                 att_out = self['Glob_att'](F.concat((self[self.lstm_dec[-1]].h, context_t)))
                 h_t_tilde = F.tanh(att_out)
-                with chainer.using_config('train', train):
-                    h_t_tilde = F.dropout(h_t_tilde, dropout_ratio)
+                # with chainer.using_config('train', train):
+                #     h_t_tilde = F.dropout(h_t_tilde, dropout_ratio)
                 predicted_out = self.out(h_t_tilde)
 
+            with chainer.using_config('train', train):
+                predicted_out = F.dropout(predicted_out, dropout_ratio)
             # compute loss
             prob = F.softmax(predicted_out)
 

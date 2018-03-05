@@ -152,7 +152,8 @@ class EncoderDecoder(Chain):
         hs = self[lstm_layer_list[0]](embed_id)
         # feed into remaining LSTM layers
         for lstm_layer in lstm_layer_list[1:]:
-            hs = self[lstm_layer](hs)
+            with chainer.using_config('train', train):
+                hs = self[lstm_layer](F.dropout(hs, ratio=.2))
 
     # Function to encode an source sentence word
     def encode(self, word, lstm_layer_list, train):

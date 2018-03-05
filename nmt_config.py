@@ -74,7 +74,7 @@ MAX_PREDICT_LEN = 20
 
 # TODO use all data
 # change flag to use reduced dataset, 1000 datasets
-USE_ALL_DATA = False
+USE_ALL_DATA = True
 # ====================
 
 if USE_ALL_DATA:

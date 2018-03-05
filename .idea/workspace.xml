@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926483f2-b663-40e2-9303-c396b694dbc4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/model/1000_eval/before_linear_L_train_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/enc_dec.py" afterPath="$PROJECT_DIR$/enc_dec.py" />
-      <change beforePath="$PROJECT_DIR$/model/train_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log" afterPath="" />
       <change beforePath="$PROJECT_DIR$/nmt_config.py" afterPath="$PROJECT_DIR$/nmt_config.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MT$RNN_tut.coverage" NAME="RNN_tut Coverage Results" MODIFIED="1518610613622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chainer_code" />
     <SUITE FILE_PATH="coverage/MT$argparse_test.coverage" NAME="argparse_test Coverage Results" MODIFIED="1518866141535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chainer_code" />
-    <SUITE FILE_PATH="coverage/MT$nmt_translate.coverage" NAME="nmt_translate Coverage Results" MODIFIED="1520281873615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MT$nmt_translate.coverage" NAME="nmt_translate Coverage Results" MODIFIED="1520285318865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MT$enc_dec.coverage" NAME="enc_dec Coverage Results" MODIFIED="1518435164695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
@@ -26,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="enc_dec.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="enc_dec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enc_dec.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-36">
@@ -38,21 +35,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nmt_config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nmt_config.py">
+      <file leaf-file-name="L+1_train_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/1000_eval/L+1_train_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="57">
+              <caret line="110" column="22" lean-forward="false" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="before_Linear_seq2seq_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.model" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/1000_eval/before_Linear_seq2seq_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.model">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="before_linear_L_train_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/1000_eval/before_linear_L_train_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="297">
-              <caret line="126" column="3" lean-forward="false" selection-start-line="126" selection-start-column="3" selection-end-line="126" selection-end-column="3" />
+      <file leaf-file-name="nmt_config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nmt_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="76" column="19" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,8 +128,8 @@
         <option value="$PROJECT_DIR$/run_exp" />
         <option value="$PROJECT_DIR$/MT_CW1/push.sh" />
         <option value="$PROJECT_DIR$/nmt_translate.py" />
-        <option value="$PROJECT_DIR$/nmt_config.py" />
         <option value="$PROJECT_DIR$/enc_dec.py" />
+        <option value="$PROJECT_DIR$/nmt_config.py" />
       </list>
     </option>
   </component>
@@ -515,40 +522,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nmt_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nmt_translate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enc_dec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#333#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nmt_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nmt_translate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5220">
@@ -841,32 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/1000_eval/before_linear_L_train_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="297">
-          <caret line="126" column="3" lean-forward="false" selection-start-line="126" selection-start-column="3" selection-end-line="126" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/1000_eval/L+1_train_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="87">
-          <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../ENV/anaconda3/envs/mlp/lib/python3.6/site-packages/chainer/configuration.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="102" column="4" lean-forward="false" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nmt_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -876,6 +827,21 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/1000_eval/seq2seq_1000sen_2-3layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.model">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/1000_eval/train_1000sen_2-3layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="297">
+          <caret line="126" column="19" lean-forward="true" selection-start-line="126" selection-start-column="3" selection-end-line="126" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/enc_dec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
@@ -883,6 +849,43 @@
           <folding>
             <element signature="e#333#351#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/1000_eval/L+1_train_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="57">
+          <caret line="110" column="22" lean-forward="false" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/1000_eval/before_Linear_seq2seq_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.model">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/1000_eval/before_linear_L_train_1000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="447">
+          <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmt_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="76" column="19" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/train_10000sen_2-3layers_100units_ja_en_exp1_NO_ATTN_dropout_0.200000.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>

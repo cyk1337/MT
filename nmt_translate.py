@@ -281,6 +281,7 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
     # At the end of training, make some predictions
     # make predictions over both training and dev sets
     print("Training set predictions")
+    # TODO
     _ = predict(s=10000, num=1, plot=True)
     print('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
     print('='*80)

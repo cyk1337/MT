@@ -74,7 +74,7 @@ MAX_PREDICT_LEN = 20
 
 # TODO use all data
 # change flag to use reduced dataset, 1000 datasets
-USE_ALL_DATA = True
+USE_ALL_DATA = False
 # ====================
 
 if USE_ALL_DATA:
@@ -93,26 +93,29 @@ else:
 # Model Parameters
 #---------------------------------------------------------------------
 # number of LSTM layers for encoder
-# num_layers_enc = 1
+num_layers_enc = 1
 
 # Q4
-num_layers_enc = 2
+# num_layers_enc = 2
 
 # number of LSTM layers for decoder
-# num_layers_dec = 1
+num_layers_dec = 1
 
 # Q4
-num_layers_dec = 3
+# num_layers_dec = 3
 
 # number of hidden units per LSTM
 # both encoder, decoder are similarly structured
 hidden_units = 100
+
+dropout_ratio=.2
+
 # default model - no attention
 # when implementing attention use either - SOFT_ATTN or HARD_ATTN
-# use_attn = NO_ATTN
+use_attn = NO_ATTN
 # TODO attention flag
 # ===================
-use_attn = SOFT_ATTN
+# use_attn = SOFT_ATTN
 # ==================
 '''
 KEEP this flag true to avoid losing earlier trained models
@@ -130,13 +133,21 @@ gpuid = -1
 #---------------------------------------------------------------------
 # Log file details - changing the following names not recommended
 #---------------------------------------------------------------------
-name_to_log = "{0:d}sen_{1:d}-{2:d}layers_{3:d}units_{4:s}_{5:s}".format(
+# name_to_log = "{0:d}sen_{1:d}-{2:d}layers_{3:d}units_{4:s}_{5:s}".format(
+#                                                             NUM_TRAINING_SENTENCES,
+#                                                             num_layers_enc,
+#                                                             num_layers_dec,
+#                                                             hidden_units,
+#                                                             EXP_NAME,
+#                                                             attn_post[use_attn])
+name_to_log = "{0:d}sen_{1:d}-{2:d}layers_{3:d}units_{4:s}_{5:s}_dropout_{6:f}".format(
                                                             NUM_TRAINING_SENTENCES,
                                                             num_layers_enc,
                                                             num_layers_dec,
                                                             hidden_units,
                                                             EXP_NAME,
-                                                            attn_post[use_attn])
+                                                            attn_post[use_attn],
+                                                            dropout_ratio)
 
 log_train_fil_name = os.path.join(model_dir, "train_{0:s}.log".format(name_to_log))
 model_fil = os.path.join(model_dir, "seq2seq_{0:s}.model".format(name_to_log))

@@ -149,11 +149,13 @@ class EncoderDecoder(Chain):
         # get embedding for word
         embed_id = embed_layer(word)
         # feed into first LSTM layer
-        hs = self[lstm_layer_list[0]](embed_id)
+        # hs = self[lstm_layer_list[0]](embed_id)
+        with chainer.using_config('train', train):
+            hs = self[lstm_layer_list[0]](F.dropout(embed_id, dropout_ratio))
         # feed into remaining LSTM layers
         for lstm_layer in lstm_layer_list[1:]:
             with chainer.using_config('train', train):
-                hs = self[lstm_layer](F.dropout(hs, ratio=.2))
+                hs = self[lstm_layer](F.dropout(hs, ratio=dropout_ratio))
 
     # Function to encode an source sentence word
     def encode(self, word, lstm_layer_list, train):
@@ -260,7 +262,9 @@ class EncoderDecoder(Chain):
         for next_word_var in var_dec[1:]:
             self.decode(pred_word, train=train)
             if self.attn == NO_ATTN:
-                predicted_out = self.out(self[self.lstm_dec[-1]].h)
+                # predicted_out = self.out(self[self.lstm_dec[-1]].h)
+                with chainer.using_config('train', train):
+                    predicted_out = self.out(F.dropout(self[self.lstm_dec[-1]].h, dropout_ratio))
             else:
                 # __QUESTION Add attention
                 # pass
@@ -268,6 +272,8 @@ class EncoderDecoder(Chain):
                 context_t = F.matmul(F.softmax(score_t), enc_states)
                 att_out = self['Glob_att'](F.concat((self[self.lstm_dec[-1]].h, context_t)))
                 h_t_tilde = F.tanh(att_out)
+                with chainer.using_config('train', train):
+                    h_t_tilde = F.dropout(h_t_tilde, dropout_ratio)
                 predicted_out = self.out(h_t_tilde)
 
             # compute loss

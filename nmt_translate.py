@@ -282,7 +282,7 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
     # make predictions over both training and dev sets
     print("Training set predictions")
     # TODO
-    _ = predict(s=10000, num=2, plot=True)
+    _ = predict(s=10000, num=5, plot=True)
     print('plot attention \nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
     print('='*80)
 

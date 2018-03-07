@@ -149,9 +149,9 @@ class EncoderDecoder(Chain):
         # get embedding for word
         embed_id = embed_layer(word)
         # feed into first LSTM layer
-        # hs = self[lstm_layer_list[0]](embed_id)
-        with chainer.using_config('train', train):
-            hs = self[lstm_layer_list[0]](F.dropout(embed_id, dropout_ratio))
+        hs = self[lstm_layer_list[0]](embed_id)
+        # with chainer.using_config('train', train):
+        #     hs = self[lstm_layer_list[0]](F.dropout(embed_id, dropout_ratio))
         # feed into remaining LSTM layers
         for lstm_layer in lstm_layer_list[1:]:
             with chainer.using_config('train', train):
@@ -276,8 +276,8 @@ class EncoderDecoder(Chain):
                 #     h_t_tilde = F.dropout(h_t_tilde, dropout_ratio)
                 predicted_out = self.out(h_t_tilde)
 
-            with chainer.using_config('train', train):
-                predicted_out = F.dropout(predicted_out, dropout_ratio)
+            # with chainer.using_config('train', train):
+            #     predicted_out = F.dropout(predicted_out, dropout_ratio)
             # compute loss
             prob = F.softmax(predicted_out)
 

@@ -189,7 +189,6 @@ def compute_dev_bleu():
     return bleu_score
 
 
-from plot_graph import *
 #---------------------------------------------------------------------
 # Main training loop
 #---------------------------------------------------------------------
@@ -247,10 +246,6 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
                     # log every 100 sentences
                     if i % 100 == 0:
                         log_train_csv.writerow([it, loss_val])
-                data['mean_loss'].append(loss_per_epoch / (i - 1))
-                data['val_loss'].append(loss_val)
-
-
 
 
         # compute precision, recall and F-score
@@ -269,32 +264,20 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
         pplx = compute_dev_pplx()
         log_train_csv.writerow([epoch, pplx])
 
-        # save
-        data['pp'].append(pplx)
-
         # Backup model every epoch
         print("Saving model")
-        # serializers.save_npz(model_fil, model)
+        serializers.save_npz(model_fil, model)
         print("Finished saving model")
         print("{0:s}".format("-"*50))
 
         # Compute Bleu every 2 epochs
-        # if epoch % 2 == 0:
-        #     print("computing bleu")
-        #     bleu_score = compute_dev_bleu()
-        #     print("finished computing bleu ... ")
-        #     print("{0:s}".format("-"*50))
-        print("computing bleu")
-        bleu_score = compute_dev_bleu()
-        print("finished computing bleu ... ")
-        print("{0:s}".format("-"*50))
-        log_train_csv.writerow([epoch, bleu_score])
-
-        # save
-        data['bleu'].append(bleu_score)
-
-    save_data(data, csv_name='test.csv', subdir='2-1_test', save_dir='plot_data')
-
+        if epoch % 2 == 0:
+            print("computing bleu")
+            bleu_score = compute_dev_bleu()
+            print("finished computing bleu ... ")
+            print("{0:s}".format("-"*50))
+            log_train_csv.writerow([epoch, bleu_score])
+        
     # At the end of training, make some predictions
     # make predictions over both training and dev sets
     print("Training set predictions")

@@ -293,7 +293,7 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
         # save
         data['bleu'].append(bleu_score)
 
-    save_data(data, csv_name='test.csv', subdir='2-1_test', save_dir='plot_data')
+    save_data(data, csv_name='{}.csv'.format(name_to_log), subdir='2-1_test', save_dir='plot_data')
 
     # At the end of training, make some predictions
     # make predictions over both training and dev sets

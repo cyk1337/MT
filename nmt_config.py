@@ -74,7 +74,7 @@ MAX_PREDICT_LEN = 20
 
 # TODO use all data
 # change flag to use reduced dataset, 1000 datasets
-USE_ALL_DATA = False
+USE_ALL_DATA = True
 # ====================
 
 if USE_ALL_DATA:
@@ -84,19 +84,19 @@ if USE_ALL_DATA:
   NUM_DEV_SENTENCES = 500
 else:
   # number of training examples to use
-  # NUM_TRAINING_SENTENCES = 1000
-  NUM_TRAINING_SENTENCES = 10
+  NUM_TRAINING_SENTENCES = 1000
+  # NUM_TRAINING_SENTENCES = 10
   # number of validation examples to use
-  # NUM_DEV_SENTENCES = 100
-  NUM_DEV_SENTENCES = 1
+  NUM_DEV_SENTENCES = 100
+  # NUM_DEV_SENTENCES = 1
 #---------------------------------------------------------------------
 # Model Parameters
 #---------------------------------------------------------------------
 # number of LSTM layers for encoder
-# num_layers_enc = 1
+num_layers_enc = 1
 
 # Q4
-num_layers_enc = 2
+# num_layers_enc = 2
 
 # number of LSTM layers for decoder
 num_layers_dec = 1
@@ -128,7 +128,7 @@ load_existing_model = True
 # Training Parameters
 #---------------------------------------------------------------------
 # Training EPOCHS
-NUM_EPOCHS = 2
+NUM_EPOCHS = 12
 # if >= 0, use GPU, if negative use CPU
 gpuid = -1
 #---------------------------------------------------------------------

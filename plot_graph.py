@@ -79,6 +79,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
     # set color list
     # colors = [c for c in list(matplotlib.colors.cnames.keys()) if not c.startswith('light')]
     colors = ['green','red','blue','goldenrod','black','lime','cyan','chartreuse','yellow','m','purple','olive','salmon','darkred','pink']
+    markers = ['d', '^', 's', '*']
     fontsize = 10
     plt.figure(figsize=figsize)
 
@@ -92,7 +93,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
         epochs = range(1, len(pp) + 1)
         # plot pp
         # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
-        plt.plot(epochs, pp, color=colors[i % len(colors)], linestyle='dashed',
+        plt.plot(epochs, pp, color=colors[i % len(colors)], marker=markers[i % len(markers)], linestyle='-',
                  label='{}'.format(line_label))
         plt.title('Perplexity', fontsize=fontsize)
     plt.xlabel('Epochs')
@@ -110,7 +111,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
         epochs = range(1, len(bleu) + 1)
         # plot bleu
         # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
-        plt.plot(epochs, bleu, color=colors[i % len(colors)], linestyle='dashed',
+        plt.plot(epochs, bleu, color=colors[i % len(colors)], marker=markers[i % len(markers)], linestyle='-.',
                  label='{}'.format(line_label))
         plt.title('BLEU', fontsize=fontsize)
     plt.xlabel('Epochs')
@@ -129,7 +130,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
         epochs = range(1, len(mean_loss) + 1)
         # plot acc
         # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
-        plt.plot(epochs, mean_loss, color=colors[i % len(colors)], linestyle='dashed', label='{}'.format(line_label))
+        plt.plot(epochs, mean_loss, color=colors[i % len(colors)], marker=markers[i % len(markers)], linestyle='dashed', label='{}'.format(line_label))
         plt.title('Mean Loss', fontsize=fontsize)
     plt.xlabel('Epochs')
     plt.ylabel('Mean loss')
@@ -147,7 +148,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
         val_loss = data['val_loss']
         epochs = range(1, len(val_loss) + 1)
 
-        plt.plot(epochs, val_loss, color=colors[i%len(colors)], linestyle='dashed', label='{}'.format(line_label))
+        plt.plot(epochs, val_loss, color=colors[i%len(colors)], marker=markers[i % len(markers)], linestyle='dashed', label='{}'.format(line_label))
     plt.title('Validation loss', fontsize=fontsize)
     plt.xlabel('Epochs')
     plt.ylabel('Val Loss')

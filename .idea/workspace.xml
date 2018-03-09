@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926483f2-b663-40e2-9303-c396b694dbc4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/eval__attention.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/model/seq2seq_10000sen_1-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.00.model" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/model/seq2seq_10000sen_1-1layers_100units_ja_en_exp1_SOFT_ATTN_dropout_0.00.model" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/NMT CW-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/NMT CW-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/NMT CW.ipynb" afterPath="$PROJECT_DIR$/NMT CW.ipynb" />
       <change beforePath="$PROJECT_DIR$/nmt_config.py" afterPath="$PROJECT_DIR$/nmt_config.py" />
-      <change beforePath="$PROJECT_DIR$/nmt_translate.py" afterPath="$PROJECT_DIR$/nmt_translate.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +20,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MT$RNN_tut.coverage" NAME="RNN_tut Coverage Results" MODIFIED="1518610613622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chainer_code" />
     <SUITE FILE_PATH="coverage/MT$argparse_test.coverage" NAME="argparse_test Coverage Results" MODIFIED="1518866141535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chainer_code" />
-    <SUITE FILE_PATH="coverage/MT$nmt_translate.coverage" NAME="nmt_translate Coverage Results" MODIFIED="1520544632502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MT$nmt_translate.coverage" NAME="nmt_translate Coverage Results" MODIFIED="1520619670144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MT$eval__attention.coverage" NAME="eval__attention Coverage Results" MODIFIED="1520622149464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MT$enc_dec.coverage" NAME="enc_dec Coverage Results" MODIFIED="1518435164695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
@@ -24,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="enc_dec.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="enc_dec.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/enc_dec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3875">
-              <caret line="310" column="28" lean-forward="false" selection-start-line="310" selection-start-column="28" selection-end-line="310" selection-end-column="28" />
+            <state relative-caret-position="458">
+              <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
               <folding>
                 <element signature="e#333#351#0" expanded="true" />
               </folding>
@@ -36,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nmt_config.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nmt_config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nmt_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+            <state relative-caret-position="396">
+              <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -49,8 +54,8 @@
       <file leaf-file-name="nmt_translate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nmt_translate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="297" column="46" lean-forward="false" selection-start-line="297" selection-start-column="46" selection-end-line="297" selection-end-column="46" />
+            <state relative-caret-position="1300">
+              <caret line="448" column="38" lean-forward="false" selection-start-line="448" selection-start-column="38" selection-end-line="448" selection-end-column="38" />
               <folding>
                 <element signature="e#271#289#0" expanded="true" />
               </folding>
@@ -58,14 +63,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_graph.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot_graph.py">
+      <file leaf-file-name="eval__attention.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eval__attention.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="352">
+              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
               <folding>
-                <element signature="e#580#611#0" expanded="true" />
+                <element signature="e#571#590#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../ENV/anaconda3/envs/mlp/lib/python3.6/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,10 +96,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>NUM_EPO</find>
-      <find>tokens_fname</find>
-      <find>embed_enc</find>
-      <find>embed_dec</find>
       <find>encod</find>
       <find>stat</find>
       <find>states</find>
@@ -111,6 +122,10 @@
       <find>feed_l</find>
       <find>feed_ls</find>
       <find>feed_la</find>
+      <find>softmax</find>
+      <find>name_to</find>
+      <find>na</find>
+      <find>serializers</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,6 +142,7 @@
         <option value="$PROJECT_DIR$/plot_graph.py" />
         <option value="$PROJECT_DIR$/nmt_translate.py" />
         <option value="$PROJECT_DIR$/nmt_config.py" />
+        <option value="$PROJECT_DIR$/eval__attention.py" />
       </list>
     </option>
   </component>
@@ -192,17 +208,6 @@
               <item name="MT" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MT" type="462c0819:PsiDirectoryNode" />
-              <item name="plot_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MT" type="462c0819:PsiDirectoryNode" />
-              <item name="plot_data" type="462c0819:PsiDirectoryNode" />
-              <item name="2-1_test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -234,6 +239,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/model" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -254,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plot_graph">
+  <component name="RunManager" selected="Python.eval__attention">
     <configuration name="RNN_tut" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,7 +318,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="enc_dec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="eval__attention" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -320,14 +326,14 @@
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/../../ENV/anaconda3/envs/anlp/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MT" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/enc_dec.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eval__attention.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -370,19 +376,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.enc_dec" />
-      <item index="1" class="java.lang.String" itemvalue="Python.nmt_translate" />
-      <item index="2" class="java.lang.String" itemvalue="Python.RNN_tut" />
-      <item index="3" class="java.lang.String" itemvalue="Python.argparse_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.plot_graph" />
+      <item index="0" class="java.lang.String" itemvalue="Python.nmt_translate" />
+      <item index="1" class="java.lang.String" itemvalue="Python.RNN_tut" />
+      <item index="2" class="java.lang.String" itemvalue="Python.argparse_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.plot_graph" />
+      <item index="4" class="java.lang.String" itemvalue="Python.eval__attention" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.plot_graph" />
+        <item index="0" class="java.lang.String" itemvalue="Python.eval__attention" />
         <item index="1" class="java.lang.String" itemvalue="Python.nmt_translate" />
-        <item index="2" class="java.lang.String" itemvalue="Python.argparse_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.RNN_tut" />
-        <item index="4" class="java.lang.String" itemvalue="Python.enc_dec" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plot_graph" />
+        <item index="3" class="java.lang.String" itemvalue="Python.argparse_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.RNN_tut" />
       </list>
     </recent_temporary>
   </component>
@@ -420,13 +426,13 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830188" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="310" height="700" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33830845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22002634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34123847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59683794" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34123847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29894578" sideWeight="0.4925926" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25283018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25225905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5074074" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32147563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -482,16 +488,21 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="75" />
+      <option name="time" value="79" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="alpha_arr.shape" language="Python" />
+        <watch expression="name_to_log" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>name_to_log</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>alpha_arr.astype(np.float32)</expression-string>
         <language-id>Python</language-id>
@@ -537,44 +548,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>h_t.shape</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/push.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../ENV/anaconda3/envs/mlp/lib/python3.6/site-packages/chainer/links/connection/lstm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="237" column="8" lean-forward="false" selection-start-line="237" selection-start-column="8" selection-end-line="237" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../ENV/anaconda3/envs/mlp/lib/python3.6/site-packages/chainer/links/connection/embed_id.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../ENV/anaconda3/envs/anlp/lib/python3.6/site-packages/chainer/optimizers/adam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../ENV/anaconda3/envs/mlp/lib/python3.6/site-packages/tqdm/_tqdm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -772,14 +748,6 @@
     <entry file="file://$PROJECT_DIR$/model/train_10000sen_1-1layers_100units_ja_en_exp1_SOFT_ATTN.log" />
     <entry file="file://$PROJECT_DIR$/model/train_10000sen_2-3layers_100units_ja_en_exp1_NO_ATTN_dropout_0.20.log" />
     <entry file="file://$PROJECT_DIR$/model/train_10000sen_2-3layers_100units_ja_en_exp1_SOFT_ATTN.log" />
-    <entry file="file://$PROJECT_DIR$/nmt_translate_(save).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/seq2seq_10sen_2-1layers_100units_ja_en_exp1_NO_ATTN_dropout_0.00.model">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -803,20 +771,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/seq2seq_10000sen_1-1layers_100units_ja_en_exp1_SOFT_ATTN_dropout_0.00.model">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plot_graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
-            <element signature="e#580#611#0" expanded="true" />
+            <element signature="e#580#611#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ENV/anaconda3/envs/mlp/lib/python3.6/site-packages/chainer/serializers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmt_translate_(save).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ENV/anaconda3/envs/mlp/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval__attention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#571#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmt_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nmt_translate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="297" column="46" lean-forward="false" selection-start-line="297" selection-start-column="46" selection-end-line="297" selection-end-column="46" />
+        <state relative-caret-position="1300">
+          <caret line="448" column="38" lean-forward="false" selection-start-line="448" selection-start-column="38" selection-end-line="448" selection-end-column="38" />
           <folding>
             <element signature="e#271#289#0" expanded="true" />
           </folding>
@@ -825,19 +845,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/enc_dec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3875">
-          <caret line="310" column="28" lean-forward="false" selection-start-line="310" selection-start-column="28" selection-end-line="310" selection-end-column="28" />
+        <state relative-caret-position="458">
+          <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
           <folding>
             <element signature="e#333#351#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nmt_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>

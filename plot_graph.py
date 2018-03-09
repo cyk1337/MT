@@ -81,39 +81,22 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
     colors = ['green','red','blue','goldenrod','black','lime','cyan','chartreuse','yellow','m','purple','olive','salmon','darkred','pink']
     fontsize = 10
     plt.figure(figsize=figsize)
-    plt.subplot(224)
-    for i, filename in enumerate(os.listdir(subdir)):
-        if filename[-4:] != '.csv': continue
-        line_label = filename[:-4]
-        csv_file = os.path.join(subdir, filename)
-        history = pd.read_csv(csv_file)
-        # plot val and acc loss
-        val_loss = history['val_loss']
-        epochs = range(1, len(val_loss) + 1)
 
-        plt.plot(epochs, val_loss, color=colors[i+4%len(colors)], linestyle='dashed', label='{} validation loss'.format(line_label))
-    plt.title('Validation loss', fontsize=fontsize)
-    plt.xlabel('Epochs')
-    plt.ylabel('Val Loss')
-        # plt.grid()
-    plt.legend()
-    plt.grid()
-    # =============================
-    # plot
-    plt.subplot(223)
+    plt.subplot(221)
     for i, filename in enumerate(os.listdir(subdir)):
         if filename[-4:] != '.csv': continue
         csv_file = os.path.join(subdir, filename)
         data = pd.read_csv(csv_file)
-        # line_label = filename[:-4]
-        mean_loss = data['mean_loss']
-        epochs = range(1, len(mean_loss) + 1)
-        # plot acc
+        line_label = filename[:-4]
+        pp = data['pp']
+        epochs = range(1, len(pp) + 1)
+        # plot pp
         # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
-        plt.plot(epochs, mean_loss, color=colors[i+3%len(colors)], linestyle='dashed', label='Mean loss')
-        plt.title('Training and validation acc', fontsize=fontsize)
+        plt.plot(epochs, pp, color=colors[i % len(colors)], linestyle='dashed',
+                 label='{}'.format(line_label))
+        plt.title('Perplexity', fontsize=fontsize)
     plt.xlabel('Epochs')
-    plt.ylabel('Mean loss')
+    plt.ylabel('Perplexity')
     plt.legend()
     plt.grid()
 
@@ -121,37 +104,60 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
     for i, filename in enumerate(os.listdir(subdir)):
         if filename[-4:] != '.csv': continue
         csv_file = os.path.join(subdir, filename)
-        history = pd.read_csv(csv_file)
+        data = pd.read_csv(csv_file)
         line_label = filename[:-4]
         bleu = data['bleu']
         epochs = range(1, len(bleu) + 1)
-        # plot acc
+        # plot bleu
         # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
-        plt.plot(epochs, mean_loss, color=colors[i+2 % len(colors)], linestyle='dashed',
-                 label='BLEU')
-        plt.title('Training and validation acc', fontsize=fontsize)
+        plt.plot(epochs, bleu, color=colors[i % len(colors)], linestyle='dashed',
+                 label='{}'.format(line_label))
+        plt.title('BLEU', fontsize=fontsize)
     plt.xlabel('Epochs')
     plt.ylabel('BLEU')
     plt.legend()
     plt.grid()
 
-    plt.subplot(221)
+    # plot
+    plt.subplot(223)
     for i, filename in enumerate(os.listdir(subdir)):
         if filename[-4:] != '.csv': continue
         csv_file = os.path.join(subdir, filename)
-        history = pd.read_csv(csv_file)
+        data = pd.read_csv(csv_file)
         line_label = filename[:-4]
-        pp = data['pp']
-        epochs = range(1, len(pp) + 1)
-        # plot pp
+        mean_loss = data['mean_loss']
+        epochs = range(1, len(mean_loss) + 1)
+        # plot acc
         # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
-        plt.plot(epochs, pp, color=colors[i+1 % len(colors)], linestyle='dashed',
-                 label='Perplexity')
-        plt.title('Training and validation acc', fontsize=fontsize)
+        plt.plot(epochs, mean_loss, color=colors[i % len(colors)], linestyle='dashed', label='{}'.format(line_label))
+        plt.title('Mean Loss', fontsize=fontsize)
     plt.xlabel('Epochs')
-    plt.ylabel('Perplexity')
+    plt.ylabel('Mean loss')
     plt.legend()
     plt.grid()
+
+    # ==================================
+    plt.subplot(224)
+    for i, filename in enumerate(os.listdir(subdir)):
+        if filename[-4:] != '.csv': continue
+        line_label = filename[:-4]
+        csv_file = os.path.join(subdir, filename)
+        data = pd.read_csv(csv_file)
+        # plot val and acc loss
+        val_loss = data['val_loss']
+        epochs = range(1, len(val_loss) + 1)
+
+        plt.plot(epochs, val_loss, color=colors[i%len(colors)], linestyle='dashed', label='{}'.format(line_label))
+    plt.title('Validation loss', fontsize=fontsize)
+    plt.xlabel('Epochs')
+    plt.ylabel('Val Loss')
+        # plt.grid()
+    plt.legend()
+    plt.grid()
+    # =============================
+
+
+
 
 
 
@@ -162,6 +168,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
     plt.show()
 
 if __name__=='__main__':
-    subdir = '2-1_test'
+    # subdir = '1-1'
+    subdir = '2-3'
     plot_filename = '{}.pdf'.format(subdir)
     plot_all_history(subdir=subdir, plot_filename=plot_filename, figsize=(16, 9))

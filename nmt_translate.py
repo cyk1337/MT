@@ -238,6 +238,7 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
                     # store loss value for display
                     loss_val = float(loss.data) / len(en_ids)
                     loss_per_epoch += loss_val
+                    mean_loss=loss_per_epoch / i
 
                     out_str = "epoch={0:d}, iter={1:d}, loss={2:.6f}, mean loss={3:.6f}".format(
                                epoch+1, it, loss_val, (loss_per_epoch / i))
@@ -247,7 +248,7 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
                     # log every 100 sentences
                     if i % 100 == 0:
                         log_train_csv.writerow([it, loss_val])
-                data['mean_loss'].append(loss_per_epoch / (i - 1))
+                data['mean_loss'].append(mean_loss)
                 data['val_loss'].append(loss_val)
 
 
@@ -274,7 +275,7 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
 
         # Backup model every epoch
         print("Saving model")
-        # serializers.save_npz(model_fil, model)
+        serializers.save_npz(model_fil, model)
         print("Finished saving model")
         print("{0:s}".format("-"*50))
 
@@ -293,7 +294,7 @@ def train_loop(text_fname, num_training, num_epochs, log_mode="a"):
         # save
         data['bleu'].append(bleu_score)
 
-    save_data(data, csv_name='{}.csv'.format(name_to_log), subdir='2-1_test', save_dir='plot_data')
+    save_data(data, csv_name='{}.csv'.format(name_to_log), subdir=subdir, save_dir='plot_data')
 
     # At the end of training, make some predictions
     # make predictions over both training and dev sets

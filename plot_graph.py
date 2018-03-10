@@ -171,6 +171,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
 if __name__=='__main__':
     # subdir = '1-1'
     # subdir = '2-3'
-    subdir = 'Q4'
+    # subdir = 'Q4'
+    subdir = 'Q5'
     plot_filename = '{}.pdf'.format(subdir)
     plot_all_history(subdir=subdir, plot_filename=plot_filename, figsize=(16, 9))

@@ -83,7 +83,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
     fontsize = 10
     plt.figure(figsize=figsize)
 
-    plt.subplot(121)
+    plt.subplot(221)
     for i, filename in enumerate(os.listdir(subdir)):
         if filename[-4:] != '.csv': continue
         csv_file = os.path.join(subdir, filename)
@@ -101,7 +101,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
     plt.legend()
     plt.grid()
 
-    plt.subplot(122)
+    plt.subplot(222)
     for i, filename in enumerate(os.listdir(subdir)):
         if filename[-4:] != '.csv': continue
         csv_file = os.path.join(subdir, filename)
@@ -120,41 +120,41 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
     plt.grid()
 
     # # plot
-    # plt.subplot(223)
-    # for i, filename in enumerate(os.listdir(subdir)):
-    #     if filename[-4:] != '.csv': continue
-    #     csv_file = os.path.join(subdir, filename)
-    #     data = pd.read_csv(csv_file)
-    #     line_label = filename[:-4]
-    #     mean_loss = data['mean_loss']
-    #     epochs = range(1, len(mean_loss) + 1)
-    #     # plot acc
-    #     # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
-    #     plt.plot(epochs, mean_loss, color=colors[i % len(colors)], marker=markers[i % len(markers)], linestyle='dashed', label='{}'.format(line_label))
-    #     plt.title('Mean Loss', fontsize=fontsize)
-    # plt.xlabel('Epochs')
-    # plt.ylabel('Mean loss')
-    # plt.legend()
-    # plt.grid()
-    #
-    # # ==================================
-    # plt.subplot(224)
-    # for i, filename in enumerate(os.listdir(subdir)):
-    #     if filename[-4:] != '.csv': continue
-    #     line_label = filename[:-4]
-    #     csv_file = os.path.join(subdir, filename)
-    #     data = pd.read_csv(csv_file)
-    #     # plot val and acc loss
-    #     val_loss = data['val_loss']
-    #     epochs = range(1, len(val_loss) + 1)
-    #
-    #     plt.plot(epochs, val_loss, color=colors[i%len(colors)], marker=markers[i % len(markers)], linestyle='dashed', label='{}'.format(line_label))
-    # plt.title('Validation loss', fontsize=fontsize)
-    # plt.xlabel('Epochs')
-    # plt.ylabel('Val Loss')
-    #     # plt.grid()
-    # plt.legend()
-    # plt.grid()
+    plt.subplot(223)
+    for i, filename in enumerate(os.listdir(subdir)):
+        if filename[-4:] != '.csv': continue
+        csv_file = os.path.join(subdir, filename)
+        data = pd.read_csv(csv_file)
+        line_label = filename[:-4]
+        mean_loss = data['mean_loss']
+        epochs = range(1, len(mean_loss) + 1)
+        # plot acc
+        # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
+        plt.plot(epochs, mean_loss, color=colors[i % len(colors)], marker=markers[i % len(markers)], linestyle='dashed', label='{}'.format(line_label))
+        plt.title('Mean Loss', fontsize=fontsize)
+    plt.xlabel('Epochs')
+    plt.ylabel('Mean loss')
+    plt.legend()
+    plt.grid()
+
+    # ==================================
+    plt.subplot(224)
+    for i, filename in enumerate(os.listdir(subdir)):
+        if filename[-4:] != '.csv': continue
+        line_label = filename[:-4]
+        csv_file = os.path.join(subdir, filename)
+        data = pd.read_csv(csv_file)
+        # plot val and acc loss
+        val_loss = data['val_loss']
+        epochs = range(1, len(val_loss) + 1)
+
+        plt.plot(epochs, val_loss, color=colors[i%len(colors)], marker=markers[i % len(markers)], linestyle='dashed', label='{}'.format(line_label))
+    plt.title('Validation loss', fontsize=fontsize)
+    plt.xlabel('Epochs')
+    plt.ylabel('Val Loss')
+        # plt.grid()
+    plt.legend()
+    plt.grid()
     # =============================
 
 
@@ -169,7 +169,8 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
     plt.show()
 
 if __name__=='__main__':
-    subdir = '1-1'
+    # subdir = '1-1'
     # subdir = '2-3'
+    subdir = 'Q4'
     plot_filename = '{}.pdf'.format(subdir)
-    plot_all_history(subdir=subdir, plot_filename=plot_filename, figsize=(14, 5))
+    plot_all_history(subdir=subdir, plot_filename=plot_filename, figsize=(16, 9))

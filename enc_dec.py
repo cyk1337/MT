@@ -238,28 +238,6 @@ class EncoderDecoder(Chain):
                     pred_word = Variable(xp.asarray([indx], dtype=np.int32))
             else:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 pred_word = Variable(xp.asarray([indx], dtype=np.int32))
 
         else:

@@ -95,7 +95,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
         # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
         plt.plot(epochs, pp, color=colors[i % len(colors)], marker=markers[i % len(markers)], linestyle='-',
                  label='{}'.format(line_label))
-        plt.title('Perplexity', fontsize=fontsize)
+        # plt.title('Perplexity', fontsize=fontsize)
     plt.xlabel('Epochs')
     plt.ylabel('Perplexity')
     plt.legend()
@@ -113,7 +113,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
         # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
         plt.plot(epochs, bleu, color=colors[i % len(colors)], marker=markers[i % len(markers)], linestyle='-.',
                  label='{}'.format(line_label))
-        plt.title('BLEU', fontsize=fontsize)
+        # plt.title('BLEU', fontsize=fontsize)
     plt.xlabel('Epochs')
     plt.ylabel('BLEU')
     plt.legend()
@@ -131,9 +131,9 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
         # plot acc
         # plt.plot(epochs, acc, color=colors[i%len(colors)], linestyle='-', label='{} training acc'.format(line_label))
         plt.plot(epochs, mean_loss, color=colors[i % len(colors)], marker=markers[i % len(markers)], linestyle='dashed', label='{}'.format(line_label))
-        plt.title('Mean Loss', fontsize=fontsize)
+        # plt.title('Mean Training Loss', fontsize=fontsize)
     plt.xlabel('Epochs')
-    plt.ylabel('Mean loss')
+    plt.ylabel('Mean training loss')
     plt.legend()
     plt.grid()
 
@@ -157,11 +157,6 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
     # plt.grid()
     # =============================
 
-
-
-
-
-
     save_fig(plt, plot_filename=plot_filename, plot_dir=sum_plot)
     print("{} saved!".format(plot_filename))
     print('-'*80)
@@ -171,6 +166,7 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
 if __name__=='__main__':
     # subdir = '1-1'
     # subdir = '2-3'
-    subdir = 'Q4'
+    # subdir = 'Q4'
+    subdir = 'Q5_dropout'
     plot_filename = '{}.pdf'.format(subdir)
     plot_all_history(subdir=subdir, plot_filename=plot_filename, figsize=(16, 9))

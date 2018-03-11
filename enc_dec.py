@@ -151,11 +151,26 @@ class EncoderDecoder(Chain):
         # feed into first LSTM layer
         # hs = self[lstm_layer_list[0]](embed_id)
         with chainer.using_config('train', train):
-            hs = self[lstm_layer_list[0]](F.dropout(embed_id, dropout_ratio))
+            embed_id = F.dropout(embed_id, dropout_ratio)
+            hs = self[lstm_layer_list[0]](embed_id)
+            hs = F.dropout(hs, dropout_ratio)
+
         # feed into remaining LSTM layers
         for lstm_layer in lstm_layer_list[1:]:
             with chainer.using_config('train', train):
-                hs = self[lstm_layer](F.dropout(hs, ratio=dropout_ratio))
+                hs = self[lstm_layer](hs)
+                hs = F.dropout(hs, ratio=dropout_ratio)
+
+        # embed_id = F.dropout(embed_id, dropout_ratio)
+        # hs = self[lstm_layer_list[0]](embed_id)
+        # # hs = F.dropout(hs, dropout_ratio)
+        #
+        # # feed into remaining LSTM layers
+        # for lstm_layer in lstm_layer_list[1:]:
+        #     hs = F.dropout(hs, dropout_ratio)
+        #     hs = self[lstm_layer](hs)
+
+
 
     # Function to encode an source sentence word
     def encode(self, word, lstm_layer_list, train):
@@ -222,6 +237,7 @@ class EncoderDecoder(Chain):
                 with chainer.no_backprop_mode():
                     pred_word = Variable(xp.asarray([indx], dtype=np.int32))
             else:
+
                 pred_word = Variable(xp.asarray([indx], dtype=np.int32))
 
         else:
@@ -276,8 +292,6 @@ class EncoderDecoder(Chain):
                 #     h_t_tilde = F.dropout(h_t_tilde, dropout_ratio)
                 predicted_out = self.out(h_t_tilde)
 
-            with chainer.using_config('train', train):
-                predicted_out = F.dropout(predicted_out, dropout_ratio)
             # compute loss
             prob = F.softmax(predicted_out)
 

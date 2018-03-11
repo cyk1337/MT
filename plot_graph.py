@@ -138,23 +138,23 @@ def plot_all_history(subdir, plot_filename='default.pdf', figsize=(16, 9)):
     plt.grid()
 
     # ==================================
-    plt.subplot(224)
-    for i, filename in enumerate(os.listdir(subdir)):
-        if filename[-4:] != '.csv': continue
-        line_label = filename[:-4]
-        csv_file = os.path.join(subdir, filename)
-        data = pd.read_csv(csv_file)
-        # plot val and acc loss
-        val_loss = data['val_loss']
-        epochs = range(1, len(val_loss) + 1)
-
-        plt.plot(epochs, val_loss, color=colors[i%len(colors)], marker=markers[i % len(markers)], linestyle='dashed', label='{}'.format(line_label))
-    plt.title('Validation loss', fontsize=fontsize)
-    plt.xlabel('Epochs')
-    plt.ylabel('Val Loss')
-        # plt.grid()
-    plt.legend()
-    plt.grid()
+    # plt.subplot(224)
+    # for i, filename in enumerate(os.listdir(subdir)):
+    #     if filename[-4:] != '.csv': continue
+    #     line_label = filename[:-4]
+    #     csv_file = os.path.join(subdir, filename)
+    #     data = pd.read_csv(csv_file)
+    #     # plot val and acc loss
+    #     val_loss = data['val_loss']
+    #     epochs = range(1, len(val_loss) + 1)
+    #
+    #     plt.plot(epochs, val_loss, color=colors[i%len(colors)], marker=markers[i % len(markers)], linestyle='dashed', label='{}'.format(line_label))
+    # plt.title('Validation loss', fontsize=fontsize)
+    # plt.xlabel('Epochs')
+    # plt.ylabel('Val Loss')
+    #     # plt.grid()
+    # plt.legend()
+    # plt.grid()
     # =============================
 
 

@@ -82,7 +82,7 @@ class EncoderDecoder(Chain):
         - L.EmbedID(vsize_dec, 2*n_units)  -> (3713, 200)
         - L.LSTM(2*n_units, 2*n_units)     -> (200, 200)
         - L.Linear(2*n_units, vsize_dec)   -> (200,3713) 
-        
+         
         Why are we using multipliers over the base number of units (n_units)?
         # ===========
         # TODO
@@ -296,7 +296,7 @@ class EncoderDecoder(Chain):
             2. measure the divergence between the predicted words and next label words with a probability between 0 and 1.
             # =============================
             '''
-            self.loss += F.softmax_cross_entropy(predicted_out, next_word_var)
+            self.loss += F. softmax_cross_entropy(predicted_out, next_word_var)
             '''___QUESTION-1-DESCRIBE-E-END___'''
 
         report({"loss":self.loss},self)

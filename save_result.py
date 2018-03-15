@@ -72,10 +72,14 @@ def compute_diff(subdir='ATT'):
 data = compute_diff()
 file_att='1-1_NO_ATTN'
 file_noatt='1-1_ATTN'
-prec_cond = data[file_att]['prec'] - data[file_noatt]['prec']> 0
+prec_cond = data[file_att]['prec'] - data[file_noatt]['prec']> 0.2
+rec_cond = data[file_att]['rec'] - data[file_noatt]['rec']> 0.2
+cond = prec_cond & rec_cond
 #     pass
-att_result = data[file_att][prec_cond]
-no_att_result = data[file_noatt][prec_cond]
+att_result = data[file_att][cond]
+no_att_result = data[file_noatt][cond]
 
 att_result[['No_att_prec','No_att_rec']] = no_att_result[['prec','rec']]
 print(att_result)
+print('len:', len(att_result))
+att_result.to_csv(os.path.join(save_dir, '1-1_att_result.csv'))

@@ -461,7 +461,7 @@ def predict(s=NUM_TRAINING_SENTENCES, num=NUM_DEV_SENTENCES,
                 result['en'].append(line_en.decode())
                 result['prec'].append(prec)
                 result['rec'].append(rec)
-                result['hyp'].append(hypothesis)
+                result['hypo'].append(hypothesis)
 
                 metrics["cp"].append(cp)
                 metrics["tp"].append(tp)

@@ -79,7 +79,7 @@ cond = prec_cond & rec_cond
 att_result = data[file_att][cond]
 no_att_result = data[file_noatt][cond]
 
-att_result[['No_att_prec','No_att_rec']] = no_att_result[['prec','rec']]
+att_result[['No_att_prec','No_att_rec', 'No_att_hypo']] = no_att_result[['prec','rec','hypo']]
 print(att_result)
 print('len:', len(att_result))
 att_result.to_csv(os.path.join(save_dir, '1-1_att_result.csv'))

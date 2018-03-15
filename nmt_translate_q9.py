@@ -395,7 +395,7 @@ def predict_sentence(line_fr, line_en=None, display=True,
     prec = matches/len(pred_ids)
     rec = matches/len(en_ids)
 
-    call_back=(line_fr, line_en, prec, rec)
+    call_back=(line_fr.strip().decode(), line_en.strip().decode(), prec, rec, " ".join(pred_words))
 
     if display and (prec >= p_filt and rec >= r_filt):
         filter_match = True
@@ -450,7 +450,7 @@ def predict(s=NUM_TRAINING_SENTENCES, num=NUM_DEV_SENTENCES,
                     plot_name=None
 
                 # make prediction
-                cp, tp, t, f, (line_fr, line_en, prec, rec) = predict_sentence(line_fr,
+                cp, tp, t, f, (line_fr, line_en, prec, rec, hypothesis) = predict_sentence(line_fr,
                                              line_en,
                                              display=display,
                                              plot_name=plot_name,
@@ -461,6 +461,7 @@ def predict(s=NUM_TRAINING_SENTENCES, num=NUM_DEV_SENTENCES,
                 result['en'].append(line_en.decode())
                 result['prec'].append(prec)
                 result['rec'].append(rec)
+                result['hyp'].append(hypothesis)
 
                 metrics["cp"].append(cp)
                 metrics["tp"].append(tp)

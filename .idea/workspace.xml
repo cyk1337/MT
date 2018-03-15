@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926483f2-b663-40e2-9303-c396b694dbc4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/nmt_config.py" afterPath="$PROJECT_DIR$/nmt_config.py" />
-      <change beforePath="$PROJECT_DIR$/nmt_translate_q9.py" afterPath="$PROJECT_DIR$/nmt_translate_q9.py" />
-      <change beforePath="$PROJECT_DIR$/q9/1-1_att_result.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/q9/ATT/1-1_NO_ATTN.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/q9/ATT/1-1_SOFT_ATTN.csv" afterPath="$PROJECT_DIR$/q9/ATT/1-1_SOFT_ATTN.csv" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/graph/2-3enc_dec.key" afterPath="$PROJECT_DIR$/graph/2-3enc_dec.key" />
+      <change beforePath="$PROJECT_DIR$/graph/2-3enc_dec.pdf" afterPath="$PROJECT_DIR$/graph/2-3enc_dec.pdf" />
+      <change beforePath="$PROJECT_DIR$/q9/1-1_att_result.csv" afterPath="$PROJECT_DIR$/q9/1-1_att_result.csv" />
       <change beforePath="$PROJECT_DIR$/save_result.py" afterPath="$PROJECT_DIR$/save_result.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +62,8 @@
       <file leaf-file-name="save_result.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/save_result.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="75" column="68" lean-forward="false" selection-start-line="75" selection-start-column="68" selection-end-line="75" selection-end-column="68" />
+            <state relative-caret-position="284">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <element signature="e#581#612#0" expanded="true" />
               </folding>
@@ -256,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.nmt_translate_q9">
+  <component name="RunManager" selected="Python.save_result">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -380,8 +379,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.nmt_translate_q9" />
-        <item index="1" class="java.lang.String" itemvalue="Python.save_result" />
+        <item index="0" class="java.lang.String" itemvalue="Python.save_result" />
+        <item index="1" class="java.lang.String" itemvalue="Python.nmt_translate_q9" />
         <item index="2" class="java.lang.String" itemvalue="Python.plot_graph" />
         <item index="3" class="java.lang.String" itemvalue="Python.eval__attention" />
         <item index="4" class="java.lang.String" itemvalue="Python.nmt_translate" />
@@ -850,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/save_result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="75" column="68" lean-forward="false" selection-start-line="75" selection-start-column="68" selection-end-line="75" selection-end-column="68" />
+        <state relative-caret-position="284">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <element signature="e#581#612#0" expanded="true" />
           </folding>

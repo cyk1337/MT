@@ -80,8 +80,13 @@ if __name__=='__main__':
     no_att_result = data[file_noatt][cond]
 
     att_result[['No_att_prec', 'No_att_rec', 'No_att_hypo', 'No_att_pplx']] = no_att_result[['prec', 'rec', 'hypo','pplx']]
+    att_result['prec_diff'] = att_result['prec'] - att_result['No_att_prec']
+    att_result['rec_diff'] = att_result['rec'] - att_result['No_att_rec']
+    att_result['pplx_diff'] = att_result['pplx'] - att_result['No_att_pplx']
+    cols = ['fr', 'en', 'hypo', 'No_att_hypo','prec_diff', 'prec', 'No_att_prec', 'rec_diff','rec','No_att_rec',  'pplx_diff','pplx', 'No_att_pplx']
     print(att_result)
     print('len:', len(att_result))
+    att_result = att_result[cols]
     try:
         att_result.to_csv(os.path.join(save_dir, '1-1_att_result.csv'))
     except:

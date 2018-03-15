@@ -72,8 +72,13 @@ if __name__=='__main__':
     data = compute_diff()
     file_att = '1-1_NO_ATTN'
     file_noatt = '1-1_SOFT_ATTN'
-    prec_cond = data[file_att]['prec'] - data[file_noatt]['prec'] > 0.2
-    rec_cond = data[file_att]['rec'] - data[file_noatt]['rec'] > 0.2
+    # prec_cond = data[file_att]['prec'] - data[file_noatt]['prec'] > 0.2
+    # rec_cond = data[file_att]['rec'] - data[file_noatt]['rec'] > 0.2
+
+    #  when attention is worse
+    prec_cond = data[file_noatt]['prec'] - data[file_att]['prec']  > 0.1
+    rec_cond =  data[file_noatt]['rec'] - data[file_att]['rec'] > 0.1
+
     cond = prec_cond & rec_cond
     #     pass
     att_result = data[file_att][cond]

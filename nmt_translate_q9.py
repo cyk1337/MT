@@ -382,6 +382,10 @@ def predict_sentence(line_fr, line_en=None, display=True,
         en_sent = line_en.strip().split()
         en_ids = [w2i["en"].get(w, UNK_ID) for w in en_sent]
 
+        # compute loss
+        curr_loss = float(model.encode_decode_train(fr_ids, en_ids, train=False).data) / len(en_ids)
+        pplx = 2 ** curr_loss
+
     pred_ids, alpha_arr = model.encode_decode_predict(fr_ids,
                                                       max_predict_len=MAX_PREDICT_LEN,
                                                       sample=sample)
@@ -395,7 +399,7 @@ def predict_sentence(line_fr, line_en=None, display=True,
     prec = matches/len(pred_ids)
     rec = matches/len(en_ids)
 
-    call_back=(line_fr.strip().decode(), line_en.strip().decode(), prec, rec, " ".join(pred_words))
+    call_back=(line_fr.strip().decode(), line_en.strip().decode(), prec, rec, " ".join(pred_words), pplx)
 
     if display and (prec >= p_filt and rec >= r_filt):
         filter_match = True
@@ -412,6 +416,7 @@ def predict_sentence(line_fr, line_en=None, display=True,
 
         print("{0:s} | {1:0.4f}".format("precision", prec))
         print("{0:s} | {1:0.4f}".format("recall", rec))
+        print("{0:s} | {1:0.4f}".format("peplexity", pplx))
 
         if plot_name and use_attn:
             plot_attention(alpha_arr, fr_words, pred_words, plot_name)
@@ -450,7 +455,7 @@ def predict(s=NUM_TRAINING_SENTENCES, num=NUM_DEV_SENTENCES,
                     plot_name=None
 
                 # make prediction
-                cp, tp, t, f, (line_fr, line_en, prec, rec, hypothesis) = predict_sentence(line_fr,
+                cp, tp, t, f, (line_fr, line_en, prec, rec, hypothesis, pplx) = predict_sentence(line_fr,
                                              line_en,
                                              display=display,
                                              plot_name=plot_name,
@@ -462,6 +467,7 @@ def predict(s=NUM_TRAINING_SENTENCES, num=NUM_DEV_SENTENCES,
                 result['prec'].append(prec)
                 result['rec'].append(rec)
                 result['hypo'].append(hypothesis)
+                result['pplx'].append(pplx)
 
                 metrics["cp"].append(cp)
                 metrics["tp"].append(tp)
@@ -510,6 +516,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+    _ = predict(s=10000, num=500)
 
 #---------------------------------------------------------------------
 

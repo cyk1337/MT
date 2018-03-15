@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 import os
 import pandas as pd
 
-result={'fr':[], 'en':[], 'hypo':[],'prec':[],'rec':[]}
+result={'fr':[], 'en':[], 'hypo':[],'prec':[],'rec':[], 'pplx':[]}
 
 
 save_dir='q9'
@@ -72,14 +72,14 @@ if __name__=='__main__':
     data = compute_diff()
     file_att = '1-1_NO_ATTN'
     file_noatt = '1-1_SOFT_ATTN'
-    prec_cond = data[file_att]['prec'] - data[file_noatt]['prec'] > 0.2
-    rec_cond = data[file_att]['rec'] - data[file_noatt]['rec'] > 0.2
+    prec_cond = data[file_att]['prec'] - data[file_noatt]['prec'] > 0.1
+    rec_cond = data[file_att]['rec'] - data[file_noatt]['rec'] > 0.1
     cond = prec_cond & rec_cond
     #     pass
     att_result = data[file_att][cond]
     no_att_result = data[file_noatt][cond]
 
-    att_result[['No_att_prec', 'No_att_rec', 'No_att_hypo']] = no_att_result[['prec', 'rec', 'hypo']]
+    att_result[['No_att_prec', 'No_att_rec', 'No_att_hypo', 'No_att_pplx']] = no_att_result[['prec', 'rec', 'hypo','pplx']]
     print(att_result)
     print('len:', len(att_result))
     try:

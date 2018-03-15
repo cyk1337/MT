@@ -1,0 +1,501 @@
+,en,fr,hypo,pplx,prec,rec
+0,this is a dead @-@ end alley .,この 路地 は 通り抜け でき ま せ ん 。,i can &apos;t _UNK this this _UNK . _EOS,60.09201884522265,0.2222222222222222,0.25
+1,"yes , sorry , i forgot to acknowledge it .",ええ 、 届 い た の を お 知 らせ する の を 忘れ て しま っ て す み ま せ ん 。,"i don &apos;t to i , you you . . _EOS",17.7588065103645,0.36363636363636365,0.4
+2,he is a german by origin .,彼 は ドイツ 生まれ の 人 だ 。,he is a man man . . _EOS,14.496377365936643,0.5,0.5714285714285714
+3,we are familiar with the legend of robin hood .,我々 は ロビン フッド の 伝説 を 良く 知 っ て い る 。,we are _UNK the _UNK _UNK _UNK _UNK . _EOS,4.672241965389915,0.4,0.4
+4,is your trunk locked ?,トランク に は 鍵 が かけ られ て い ま す か 。,who you have in the ? _EOS,44.721776056319094,0.14285714285714285,0.2
+5,i just meant it as a joke .,それ は 冗談 の つもり で い っ た だけ だ よ 。,it &apos;s it it at here . _EOS,49.05713860287861,0.25,0.25
+6,the room had a nice cozy feel .,その 部屋 は 居心地 の 良 い 感じ が し た 。,the teacher was _UNK in room . . _EOS,30.402476545243676,0.3333333333333333,0.375
+7,she alone is able to use the personal computer .,パソコン が 使え る の は 彼女 だけ で す 。,the is is for now now . _EOS,134.22791768561243,0.375,0.3
+8,they agreed on a joint statement .,彼 ら は 共同 声明 に 同意 し た 。,they _UNK in in _UNK . . _EOS,15.43031777615969,0.25,0.2857142857142857
+9,he handed her up into the bus .,彼 は 彼女 を バス に 助け あげ た 。,he was her her her her . . _EOS,17.22380877291541,0.3333333333333333,0.375
+10,"whatever faults he may have , meanness is not one of them .",彼 に どんな 欠点 が あ る に し て も 、 卑劣 な ところ は な い 。,i don &apos;t like to to his his he he . . . _EOS,51.978122670110125,0.14285714285714285,0.15384615384615385
+11,&quot; will they be open this early in the morning ? &quot; &quot; they &apos;ll let me in on sight . &quot;,「 こんな 朝 早く から 開館 し て る ん で す か ？ 」 「 私 は 顔 パス よ 」,&quot; you _UNK you _UNK _UNK _UNK &quot; &quot; i &quot; i &quot; &quot; &quot; &quot; &quot; &quot; &quot; &quot;,44.33406823895505,0.2,0.18181818181818182
+12,"man , too , has been given protective devices against extreme temperatures .",人間 も 極度 に 寒 い 温度 に 対 し て は 、 防御 装置 を 備え て い る 。,it is a and _UNK and _UNK _UNK _UNK and _UNK _UNK _UNK . _EOS,31.753623942075993,0.06666666666666667,0.07692307692307693
+13,i stopped smoking .,私 は タバコ を 吸 う の を やめ た 。,i thought my my . . _EOS,40.97462769323939,0.2857142857142857,0.5
+14,he struck me in a passion .,彼 は かっと な っ て 私 を 殴 っ た 。,he has a a his his . . _EOS,23.304067761332973,0.3333333333333333,0.42857142857142855
+15,he pulled the rope .,彼 は ロープ を 引っ張 っ た 。,he got a a . . _EOS,17.75482501258223,0.2857142857142857,0.4
+16,why not apologize and ask for his pardon ?,どう し て あやま っ て 彼 の 許し を こ わ な い ん だ 。,i don &apos;t _UNK his his his . . _EOS,106.73444169499919,0.1,0.1111111111111111
+17,i suppose they are coming .,私 は 彼 ら は 来る と 思 う 。,i like to that he is . . _EOS,56.38893596450872,0.2222222222222222,0.3333333333333333
+18,the house which stands on the hill is very old .,丘 の 上 に 建 っ て い る 家 は とても 古 い 。,the is very very very . . _EOS,107.9689678291493,0.5,0.36363636363636365
+19,i arrived there too early .,私 は 早 く 着 き すぎ た 。,i was to to than than . . _EOS,44.52540342680667,0.2222222222222222,0.3333333333333333
+20,i would like to repay him for his kindness .,私 は 彼 の 親切 に こたえ た い 。,i want to him him . . _EOS,49.15873859709741,0.5,0.4
+21,the roof was torn off by the gale .,屋根 は 強風 に 飛ば さ れ た 。,the _UNK was was in in _UNK . . _EOS,7.625654434866951,0.3,0.3333333333333333
+22,a boat suddenly appeared out of the mist .,霧 の 中 から 突然 船 が 現れ た 。,a _UNK the in in the . . _EOS,38.713334101131714,0.3333333333333333,0.3333333333333333
+23,he would still be alive if he had been wearing his seat belt when the car crashed .,車 が 衝突 し た とき シート ベルト を し て い た ら 、 彼 は 今 で も 生き て い る だ ろ う 。,the _UNK _UNK _UNK when when when the when the the the a the . . _EOS,59.76884816326573,0.17647058823529413,0.16666666666666666
+24,"when you get married and have kids , you &apos;ll realize that actions speak louder than words .",あなた が 結婚 し 子供 を 持 っ た ら 、 言葉 より 実践 と い う こと を 悟 る で しょ う 。,i will you have you you when when when when when when . . _EOS,121.45587206001125,0.3333333333333333,0.2777777777777778
+25,it leaves nothing much to be desired .,それ は 遺憾 な ところ が 多 い 。,it &apos;s not _UNK . . _EOS,74.98508912961998,0.2857142857142857,0.25
+26,you can &apos;t turn the heat off as long as the system is operating .,その 装置 が 作動 し て い る 間 は 暖房 を 止め る こと は でき な い 。,the _UNK can can the the the the _EOS,127.88637612851171,0.3333333333333333,0.2
+27,the picnic was called off because of rain .,ピクニック は 雨 の ため に 中止 に な っ た 。,the train has the for the the the . . _EOS,27.999331723604705,0.18181818181818182,0.2222222222222222
+28,he often stays away from home on the weekend .,彼 は 週末 に よく 家 を 空け る 。,he _UNK his in in _UNK . _EOS,35.571306506400276,0.25,0.2
+29,the german shepherd was limping down the street .,その シェパード は 、 びっこ を ひ き ながら 道 を 歩 い て い た 。,the _UNK were _UNK on _UNK the the the . . . _EOS,24.388904056413818,0.23076923076923078,0.3333333333333333
+30,bob has too many books to read .,ボブ は 読 み きれ な い ほど たくさん の 本 を 持 っ て い る 。,the has have have to his his . . _EOS,27.87683508154452,0.3,0.375
+31,he hammered nails into the plank .,板 に くぎ を 打ち込 ん だ 。,he _UNK _UNK to to _UNK . . _EOS,4.663406035839994,0.2222222222222222,0.2857142857142857
+32,have you finished your homework already ?,宿題 は もう 終わ っ た の で す か 。,have you you finished the the ? ? _EOS,11.364146347795394,0.4444444444444444,0.5714285714285714
+33,that &apos;s about it .,まず その 辺 で す 。,"that is , , is is is . _EOS",150.96400167060096,0.2222222222222222,0.4
+34,my dream is to take a round @-@ the @-@ world trip .,夢 は 、 世界 一周 旅行 。,a is a _UNK . . _EOS,351.31520237740733,0.42857142857142855,0.23076923076923078
+35,please take me home tonight .,今夜 は 家 に つれ て い っ て く れ 。,let &apos;s _UNK . . _EOS,38.0968116684368,0.16666666666666666,0.16666666666666666
+36,i have had to stay in bed for two days .,２ 日間 ベッド に い な く て は な ら な かっ た 。,the _UNK had to two two two . . _EOS,54.32126132727179,0.4,0.36363636363636365
+37,the firemen had the fire out in no time .,消防 士 は あっ と い う 間 に 火 を 消 し た 。,the _UNK _UNK _UNK his _UNK _UNK . _EOS,36.57821259415581,0.2222222222222222,0.2
+38,can i borrow your umbrella ?,あなた の 傘 を 借り て い い で す か 。,may you your your ? _EOS,12.11466596786788,0.3333333333333333,0.3333333333333333
+39,i will stay home if it rains tomorrow .,明日 雨降り なら 私 は 家 に い ま す 。,i will be like on on tomorrow tomorrow tomorrow tomorrow _EOS,30.292997281394193,0.2727272727272727,0.3333333333333333
+40,she was the last to cross the finishing line .,彼女 が 最後 に ゴール し た 人 で す 。,she is well well well well well . . _EOS,39.93063354406521,0.2,0.2
+41,nothing is more vivid than a picture .,写真 ほど 鮮明 な もの は な い 。,nothing is no _UNK _UNK _UNK . _EOS,12.594664707899717,0.375,0.375
+42,tax cuts are often used as a major fiscal tool to stimulate the economy .,減税 は しばしば 経済 を 刺激 する 重要 な 財政 政策 手段 と し て 使 わ れ る 。,_UNK _UNK _UNK a _UNK of _UNK _UNK _UNK . . _EOS,69.58515727914272,0.16666666666666666,0.13333333333333333
+43,the bridge crashed under the pressure .,橋 が 圧力 で 落ち た 。,the _UNK was in . . _EOS,32.91101146927318,0.2857142857142857,0.2857142857142857
+44,i know the facts well enough .,私 は その 事実 を 十分 よく 知 っ て い る 。,i am the to the the . . _EOS,19.917607610924552,0.3333333333333333,0.42857142857142855
+45,it won &apos;t be easy to find someone capable of taking his place .,彼 の 後 を 継 ぐ だけ の 能力 の あ る 人物 を 見つけ る の は 容易 で は な い だ ろ う 。,it it a a a to what to &apos;s to is . _EOS,35.09828356474003,0.23076923076923078,0.21428571428571427
+46,i hurried in order to catch the first train .,私 は 一 番 列車 に 間に合 う よう に 急 い だ 。,i will to be to the the a a a . . _EOS,31.287308396270976,0.3076923076923077,0.4
+47,i cannot put up with his idleness any longer .,私 は もはや 彼 の なまけ を 我慢 出来 な い 。,i don &apos;t like him the the . . _EOS,42.315209394135465,0.2,0.2
+48,she resembles her aunt .,彼女 は 叔母 に 似 て い る 。,she is her for her . _EOS,51.69046402049634,0.42857142857142855,0.6
+49,he earns a good salary .,彼 は い い 給料 を もら っ て い る 。,he is a good good . _EOS,12.731397825135279,0.5714285714285714,0.6666666666666666
+50,the boy singing a song is my brother .,歌 を 歌 っ て い る 少年 は 私 の 弟 で す 。,the man man on is is . _EOS,17.4312873045395,0.375,0.3333333333333333
+51,she was lying face down on the bed .,彼女 は ベッド の 上 に うつ伏せ に 倒れ て い た 。,she was on on on the the the . . _EOS,13.52974341637562,0.45454545454545453,0.5555555555555556
+52,i have an urgent matter to attend to .,急 い で する 事 が あ る 。,there is a in in . . _EOS,133.4036413119426,0.125,0.1111111111111111
+53,i had to cancel my trip on account of the strike .,私 は 、 ストライキ の ため に 、 旅行 を 中止 し な けれ ば な ら な かっ た 。,i had to to to the a a . . _EOS,31.67479784196367,0.45454545454545453,0.4166666666666667
+54,everyone is not honest .,だれ で も が み な 正直 と は 限 ら な い 。,no no no not not are not are . . . _EOS,113.61796673604466,0.16666666666666666,0.4
+55,"if i were in your place , i would lend him a hand .",もし 私 が 君 の 立場 なら 、 彼 を 手伝 っ て や る だ ろ う に 。,"if you you you , , i you you him him . _EOS",38.40764144622191,0.38461538461538464,0.35714285714285715
+56,you should cultivate the habit of getting up early .,早起き の 習慣 を 養 う よう に し なさ い 。,take the the _UNK the the the . _EOS,162.47108273810542,0.2222222222222222,0.2
+57,i will never forget seeing you .,君 に 会 っ た こと を 私 は 決して 忘れ ま せ ん 。,i will you you you you you . . . _EOS,13.363269614825667,0.36363636363636365,0.5714285714285714
+58,have you ever been to canada ?,カナダ へ 行 っ た こと が あ り ま す か 。,have you ever ever ? ? _EOS,7.631262867357703,0.5714285714285714,0.5714285714285714
+59,the front of the bus was not crowded .,バス の 前 の ほう は す い て い た 。,there was was of of the . . _EOS,56.241263272546135,0.4444444444444444,0.4444444444444444
+60,he was welcomed wherever he went .,彼 は 出かけ た 先々 で 歓迎 さ れ た 。,he was been to he was the . . _EOS,17.836843392533982,0.4,0.5714285714285714
+61,he sometimes forgets what he was talking about .,彼 は 自分 が 何 を 話 し て い る か を 時々 忘れ て しま う 。,he will have the he he he he he he . . _EOS,33.8020696847146,0.23076923076923078,0.3333333333333333
+62,she is in no humor for task .,彼女 は その 仕事 を する 気分 で は な い 。,she cannot not not the the the . . _EOS,22.96360798985547,0.2,0.25
+63,i like baseball .,私 は 野球 が 好き だ 。,i like like baseball . _EOS,4.501409383978311,0.6666666666666666,1.0
+64,no person by that name is listed in the register of the school .,その 名 の 人 は 学籍 簿 に 載 っ て ま せ ん 。,the _UNK _UNK _UNK _UNK _UNK _UNK . _EOS,462.91005819491863,0.2222222222222222,0.14285714285714285
+65,"if the harvest gets any worse , there could be a famine .",収穫 が もっと 悪 く な れ ば 、 飢饉 が 起こ る か も 知れ な い 。,"if you may you , you you you you you &apos;t you . . _EOS",97.96945842741124,0.2,0.23076923076923078
+66,father went red with anger when i behaved rudely towards him .,父 は 私 が 彼 に 対 し て 失礼 な 言動 を と っ た とき 、 怒り で 顔 が 真っ赤 に な っ た 。,my father his his his his his his his his his _UNK his his . . _EOS,94.73768215281561,0.11764705882352941,0.16666666666666666
+67,he was standing at the top of the mountain .,彼 は 山 の 頂上 に 立 っ て い ま し た 。,he was his with his his . . _EOS,38.51794220111473,0.3333333333333333,0.3
+68,we all like cycling .,私 たち みんな 自転 車 に 乗 る の が 好き で す 。,we are to to to to . . _EOS,148.77225307122725,0.2222222222222222,0.4
+69,babies often fall down .,赤ん坊 は よく 転 ぶ 。,it &apos;s often a . . _EOS,105.66655017786434,0.2857142857142857,0.4
+70,the question was too difficult to answer .,その 質問 は 難し すぎ て 答え られ な かっ た 。,the were was was with the the . . _EOS,10.40427043287636,0.3,0.375
+71,she looks like a teacher .,彼女 は 教師 の よう に 見え る 。,she looks have a a a . . _EOS,9.638716894094921,0.4444444444444444,0.6666666666666666
+72,&quot; weren &apos;t you there ? &quot; asked mr jordan .,ジョーダン さん は 「 授業 に 出 て い な かっ た の で す か 」 と たずね た 。,when was that was to a a a . _EOS,29.537284722536835,0.1,0.09090909090909091
+73,"&quot; anything else ? &quot; &quot; no , that &apos;s all . &quot;",「 ほか に 何 か 要 り ま す か 」 「 それ だけ で 結構 で す 」,&quot; do you you ? ? &quot; &quot; &quot; &quot; &quot; &quot; &quot; . _EOS,31.972207043865808,0.4,0.46153846153846156
+74,worry affected his health .,気 苦労 が 彼 の 体 に 響 い た 。,the _UNK his his his . . _EOS,291.99600896392633,0.25,0.4
+75,he explained it at length .,彼 は それ を 詳し く 説明 し だ し た 。,he _UNK it it it . _EOS,12.392966828976778,0.42857142857142855,0.5
+76,"&quot; cheer up , &quot; she said to me .",「 元気 を 出 し なさ い 」 と 彼女 は 私 に 言 い ま し た 。,"&quot; you i , , you you the . . _EOS",18.196227527698618,0.2727272727272727,0.3
+77,i &apos;m not really familiar with computers .,本当 を 言 う と 、 コンピューター に は 詳し く な い の で す 。,"it is the , , i the to . . . _EOS",110.27392392461873,0.16666666666666666,0.25
+78,i want to chill the wine more .,ワイン を もっと 冷や し た い 。,i want to to the the the the . . _EOS,27.78194732674487,0.45454545454545453,0.625
+79,"she is in a temper , because she missed her usual train in the subway and had to walk to work .",彼女 は 機嫌 が 悪 い と い う の も 、 いつ も 地下 鉄 に 乗 り 遅れ 仕事 場 まで 歩 く 羽目 に な っ た から だ 。,she got the she the she the she was a . . _EOS,131.64623838612036,0.38461538461538464,0.22727272727272727
+80,it said rain from this evening .,夕方 から 雨 だ って い っ て い た よ 。,the the from from the the the . . _EOS,81.76293196338499,0.2,0.2857142857142857
+81,by tomorrow morning all the world will have been covered with snow .,あす の 朝 まで に は 一面 の 銀 世界 に な っ て い る だ ろ う 。,the the _UNK _UNK _UNK _UNK _UNK the the . . _EOS,212.94696399749552,0.16666666666666666,0.15384615384615385
+82,"had i known it , i would have told you .",知 っ て い れ ば 教え て あげ た ん だ けど 。,i you know you know i you . . _EOS,47.81930241679152,0.4,0.36363636363636365
+83,ignorance is bliss .,無知 は 幸福 。,_UNK is a _UNK . _EOS,196.75486117621526,0.3333333333333333,0.5
+84,what a waste of your lawyer qualifications !,せっかく 弁護 士 の 資格 が あ る の に もったい な い 。,there is a to the the the the . . _EOS,192.781804539908,0.09090909090909091,0.125
+85,make the best of your small income .,少な い 収入 を でき る 限り いか し た い 。,i have to have a when with in it . . _EOS,372.41581533028847,0.08333333333333333,0.125
+86,may i call on you some day ?,いつ か あなた を 訪問 し て も い い で す か 。,may you you your your with ? ? _EOS,12.744534837260591,0.3333333333333333,0.375
+87,i didn &apos;t know whether to stay here or go to london .,私 は ここ に とどま る べ き か ロンドン へ 行 く べ き か 分か ら な かっ た 。,i had to go to to to the to . . _EOS,25.726505469705334,0.4166666666666667,0.38461538461538464
+88,dan is often scolded by his mother .,ダン は よく お 母 さん に しか ら れ る 。,_UNK _UNK _UNK _UNK to _UNK . . _EOS,16.170353278847145,0.1111111111111111,0.125
+89,george is quite talkative .,ジョージ は とても 話 好き だ 。,she is very very . . _EOS,31.77506454397844,0.2857142857142857,0.4
+90,there are cases where the system doesn &apos;t go .,システム が 作動 し な い 場合 が あ る 。,there is a _UNK _UNK . _EOS,179.23661658197415,0.2857142857142857,0.2
+91,she goes to the movies once a week .,彼女 は 毎週 １ 回 映画 を 見 に 行 く 。,she often often often a a a a . . _EOS,17.404237603816302,0.2727272727272727,0.3333333333333333
+92,he is fine and gentle .,彼 は とって も やさし い よ 。,he is good . . _EOS,29.349418923276712,0.5,0.5
+93,i am almost 180 centimeters tall .,私 は ほとんど １８０ センチ で す 。,i like the _UNK _UNK . _EOS,13.304258007347018,0.2857142857142857,0.2857142857142857
+94,he resembles his mother .,彼 は 母親 に 似 て い る 。,he is for for . _EOS,14.671634072086611,0.3333333333333333,0.4
+95,tokyo is by far the largest city in japan .,東京 は だんぜん 日本 で 一番 大き い 都市 で す 。,i is a _UNK _UNK _UNK _UNK _UNK . _EOS,35.73156118977049,0.2,0.2
+96,"if you wish to get on in the world , you must not shrink from effort .",出世 し た い の なら 、 努力 を おそれ て は な ら な い 。,"i don &apos;t like to , , i _UNK a a _UNK _UNK . . _EOS",45.6059778150827,0.1875,0.17647058823529413
+97,"&quot; it &apos;s still shallow , eh . my feet still touch the bottom . &quot; &quot; it &apos;s quite a shallow beach . yotsuba , you can still touch the bottom can &apos;t you ? &quot;",「 まだ 浅 い ね 。 足 とど く 」 「 結構 遠浅 だ な 。 よ つば も まだ 足 つ く だ ろ 」,&quot; _UNK _UNK _UNK _UNK &quot; &quot; &quot; &quot; &quot; &quot; &quot; &quot; &quot; &quot; &quot; &quot; &quot; . &quot;,36.940710539422945,0.25,0.13513513513513514
+98,my grandfather hopes that i will enter college .,私 の お じい ちゃん は 私 が 大学 に 行 く こと を 望 ん で い る 。,my father is to to my to . . _EOS,31.692314000241097,0.2,0.2222222222222222
+99,it &apos;s easy to lose track of time when you are in las vegas .,ラスベガス が い る と 時間 が 経 つ の を 忘れ る 。,we _UNK are to on on the . . _EOS,171.8682448076769,0.3,0.2
+100,he glared at me fiercely .,彼 は 非常 な 剣幕 で 私 を にらみ付け た 。,he _UNK his _UNK _UNK _UNK . _EOS,8.584053924219026,0.25,0.3333333333333333
+101,a fence between makes love more keen .,間 の 垣根 が 恋 を いっそう 燃え立 た せ る 。,a _UNK the the the the the the . _EOS,110.93101868580935,0.2,0.25
+102,caroline knows better than to spend all her money on clothes .,キャロライン は すべて の お 金 を 洋服 に 使 う ほど 愚か で は な い 。,it is not a to to money money money a . . _EOS,45.16119700811194,0.23076923076923078,0.25
+103,he has just been appointed the u.s. ambassador to japan .,彼 は 駐日 アメリカ 大使 に 命 じ られ た ばかり で す 。,he is as at _UNK _UNK _UNK . _EOS,61.574852158277096,0.2222222222222222,0.18181818181818182
+104,she married to the kind of man you would expect her to pick .,彼女 なら 当然 選 び そう な 人 と 彼女 は 結婚 し た 。,it was her i she she she she she she she she she she she she . _EOS,126.83243233633917,0.16666666666666666,0.21428571428571427
+105,i met my friend on the street .,昨日 通り で 友人 に 会 っ た 。,i met yesterday yesterday . _EOS,31.566133924822502,0.5,0.375
+106,liquor will have an effect on a person .,お 酒 を 飲 む と 影響 が 出 る もの だ 。,a is and and you you . . . _EOS,66.30106395973266,0.2,0.2222222222222222
+107,i believe in you .,君 を 信頼 し て い る 。,you are you you . _EOS,8.253147255765507,0.3333333333333333,0.4
+108,our train went at 200 kilometers an hour .,我々 の 列車 は 時速 ２００ キロ で 走 っ た 。,our _UNK was _UNK _UNK _UNK . _EOS,50.6125017187537,0.25,0.2222222222222222
+109,we are crying .,私 たち は 泣 い て い る の 。,we are very . . _EOS,8.50221586359459,0.5,0.75
+110,she caught her breath .,彼女 は 息 を 飲 ん だ 。,she is a her her . . _EOS,42.26939385711253,0.375,0.6
+111,you must not smoke till you grow up .,君 たち は 大人 に な る まで タバコ を 吸 っ て は いけ な い 。,you should to to to to to to . . . _EOS,37.465949811804414,0.16666666666666666,0.2222222222222222
+112,he tapered off to one cigarette a day .,彼 は たばこ を 一 日 一 本 に 減ら し て い っ た 。,he was his to his on day . _EOS,21.51479388477374,0.4444444444444444,0.4444444444444444
+113,your daughter &apos;s on drugs .,貴殿 の 娘 さん は 麻薬 漬け で す 。,the _UNK _UNK is is _UNK _UNK . _EOS,60.58180285346453,0.1111111111111111,0.16666666666666666
+114,let &apos;s put her in charge of that .,彼女 を その 任務 に 就け よう 。,she _UNK the her her _UNK . _EOS,36.72165641587835,0.25,0.2222222222222222
+115,a travel agent arranged everything for our trip .,ある 旅行 会社 が 我々 の 旅行 の 手配 を 全部 し て くれ た 。,it was a the the the the the the in the the . . _EOS,287.37443001936236,0.13333333333333333,0.2222222222222222
+116,she may well be proud of her son .,彼女 が 息子 を 自慢 する の も もっとも だ 。,she she son her son son son son . _EOS,6.491777189871737,0.4,0.4444444444444444
+117,the pain shoots into my right leg .,痛み が 右脚 に 走 り ま す 。,the _UNK _UNK _UNK . _EOS,150.76397003374908,0.3333333333333333,0.25
+118,the list of participants is as follows .,参加 者 の リスト は 次 の とおり で す 。,the _UNK _UNK _UNK a _UNK . . _EOS,21.137522015044592,0.2222222222222222,0.25
+119,she will often go shopping on holidays .,彼女 は 休日 に な る と よく 買い物 に 行 き ま す 。,she will go to to you you to . . _EOS,24.38534673674931,0.36363636363636365,0.5
+120,i spent all yesterday afternoon cleaning my room .,昨日 の 午後 は ずっと 、 私 の 部屋 を 掃除 する の に 費や し た 。,this of of of my my my in my room . . _EOS,111.73410734946626,0.23076923076923078,0.3333333333333333
+121,something is always going wrong with the machine .,その 機械 は いつ も どこ か 故障 ばかり し て い る 。,that is always always the on . . _EOS,22.120580934291475,0.4444444444444444,0.4444444444444444
+122,please check if the meat is being roasted at the right heat .,焼き肉 の 火 加減 を 見 なさ い 。,look the the the the the . _EOS,133.6260519465752,0.375,0.23076923076923078
+123,i asked her to marry me and she accepted .,彼女 に 結婚 し て くれ な い か と 言 っ たら 彼女 は 承知 し て くれ た 。,she she she she she she she me me to he to her . _EOS,59.791876920915016,0.3333333333333333,0.5
+124,would you be kind enough to tell me the truth ?,本当 の こと を おっしゃ っ て いただけ ま せ ん か 。,do you know the it true it ? _EOS,29.244208557679354,0.3333333333333333,0.2727272727272727
+125,his father breathed his last this morning .,彼 の 父 は 今朝 息 を 引き取 り ま し た 。,his father was his his . . _EOS,16.073187633732182,0.5,0.5
+126,she tried to commit suicide .,彼女 は 自殺 を し よう と し た 。,she _UNK her her . . _EOS,5.2686143628354065,0.2857142857142857,0.3333333333333333
+127,he lost his way in the woods .,彼 は 森 で 迷 っ た 。,he went with the a . . _EOS,26.60548204987502,0.375,0.375
+128,"if my wife calls , just tell her i &apos;m in an important meeting and cannot be disturbed .",妻 が 電話 し て き た ら 、 私 は 重要 な 会議 中 で 出 られ な い と 言 っ て くださ い 。,"if i the that i i i i i , not , a i not to . . _EOS",64.84770173559839,0.21052631578947367,0.21052631578947367
+129,we often eat foods which are harmful to our health without knowing it .,私 たち は 健康 に 有害 な 食品 を 知 ら ず に 食べ て い る 事 が よく あ る 。,we have have _UNK to to of of of . . _EOS,78.86984792196807,0.25,0.21428571428571427
+130,i don &apos;t know how to cook too many things .,料理 の レパートリー は 限 ら れ て る の 。,the _UNK are are _UNK . _EOS,3261.5161811622593,0.14285714285714285,0.09090909090909091
+131,what heading does this book come under ?,この 本 は 何 の 項目 に 入 り ま す か 。,what this book this book this this ? _EOS,26.080390916184474,0.4444444444444444,0.5
+132,he finally made up his mind to marry the girl he had met in paris .,彼 は パリ 出会 っ た 女性 と 結婚 する 決心 を し た 。,he had a had when when when he again . . _EOS,104.8160399314422,0.3333333333333333,0.25
+133,he bothered her with questions .,彼 は 彼女 に うるさ く 質問 し て 困 ら せ た 。,he had me at at the the the . . _EOS,95.69956893765944,0.18181818181818182,0.3333333333333333
+134,can you direct me to the nearest subway station ?,最寄り の 地下 鉄 へ 行 く 道 を 教え て くれ ま せ ん か 。,will you me me the the the the the ? ? _EOS,14.8542706239445,0.3333333333333333,0.4
+135,"after all is said and done , he was a first @-@ rate novelist .",彼 は 結局 は 一流 の 小説 家 で あ っ た 。,he was a _UNK of _UNK _UNK _UNK . _EOS,227.19003354025278,0.4,0.26666666666666666
+136,drivers must observe the traffic rules .,運転 者 は 交通 規則 を 守 ら ね ば な ら な い 。,you must have the the the the . . _EOS,39.019209605270404,0.3,0.42857142857142855
+137,he is not so much a politician as a merchant .,彼 は 政治 家 と い う より も むしろ 商人 だ 。,he is better than than is is . . _EOS,50.578708876704546,0.3,0.2727272727272727
+138,he acceded to my proposal .,彼 は 私 の 提案 に 同意 し た 。,he gave to my my . . _EOS,7.3162864032889425,0.5,0.6666666666666666
+139,don &apos;t press your opinion on me .,自分 の 考え を 僕 に 押しつけ る な 。,don &apos;t help your of his . . _EOS,12.415359949014714,0.4444444444444444,0.5
+140,he played tennis .,彼 は テニス を し た 。,he gave his . . _EOS,11.233433269211648,0.3333333333333333,0.5
+141,back into the hole where i was born .,薄汚 い 生まれ た 故郷 の 街 に 戻 っ て き た 。,i was a to to to the a the the . . _EOS,136.43394440824594,0.3076923076923077,0.4444444444444444
+142,the car ran into a guardrail .,車 は ガードレール に 衝突 し た 。,the car _UNK _UNK in _UNK . _EOS,5.485021199937285,0.375,0.42857142857142855
+143,there are enough accidents without asking for one .,注意 し て い て も 事故 は いろいろ 起き て い ま す から ね 。,"it it was a a , , i i , a a . _EOS",224.27504087913206,0.07142857142857142,0.1111111111111111
+144,neither of his students passed the exam .,彼 の 教え子 の 中 で その 試験 に 合格 し た 者 は い な かっ た 。,it was no not the his his his his . . _EOS,260.77777896571064,0.25,0.375
+145,my tape recorder is compatible with your amplifier .,私 の テープ レコーダー は 君 の アンプ に も つなげ られ る 。,my _UNK _UNK _UNK _UNK _UNK _UNK . _EOS,4.672066815088315,0.2222222222222222,0.2222222222222222
+146,he was injured in a railway accident .,彼 は 列車 事故 で けが を し た 。,he took a the in in . . _EOS,15.726282411969441,0.4444444444444444,0.5
+147,the batter struck out swinging .,バッター は 空振り の 三振 を し た 。,_UNK _UNK _UNK the _UNK . _EOS,9.152195462738565,0.2857142857142857,0.3333333333333333
+148,"death is certain to all , all shall die .",死 は 万 人 に 来る べ き もの 、 すべて 人 は 死 す べ き もの な り 。,"it is to to to , , , , and and are . . _EOS",110.7689177838458,0.26666666666666666,0.4
+149,i really enjoyed myself tonight .,今日 は 楽し かっ た 。,i was it to today . _EOS,35.634180275573144,0.2857142857142857,0.3333333333333333
+150,i had written the letter when he came .,彼 が 来 た とき は 私 は その 手紙 を 書 き 終え て い た 。,he had that when he when he had . _EOS,14.879777513667925,0.4,0.4444444444444444
+151,"then , at last , the policeman lowered his arm .",そして 、 ようやく その 警官 は 腕 を 下げ た 。,the the the the the the the the . . _EOS,40.503640854536876,0.18181818181818182,0.18181818181818182
+152,we kept on working for hours without eating anything .,我々 は 何 も 食べ ず に 何 時間 も 働 き 続け た 。,we have to to to as as as . . _EOS,40.678453638352416,0.18181818181818182,0.2
+153,we talked over our problems .,私 達 は 、 自ら の 問題 に つ い て 話し合 っ た 。,we _UNK on on the . . _EOS,28.32839162439293,0.25,0.3333333333333333
+154,we had a very vigorous debate .,私 たち は とても 活発 な 討論 を し た 。,we were very very very _UNK . _EOS,4.145515593597557,0.375,0.42857142857142855
+155,i prefer spring to fall .,秋 より 春 の ほう が 好き だ 。,i like like more than . _EOS,25.44909260922322,0.2857142857142857,0.3333333333333333
+156,it is too far to go on foot from here to the hotel . better take a taxi .,ここ から ホテル まで 徒歩 で 行 く に は 遠 すぎ ま す 。 タクシー に お 乗 り なさ い 。,get on to to be go to the the the this this this . . . _EOS,33.309433636886034,0.4117647058823529,0.3684210526315789
+157,everyone always speaks well of tony .,みんな いつ も トニー を ほめ る 。,i always always _UNK a . _EOS,84.18901681106105,0.2857142857142857,0.2857142857142857
+158,all of these abilities are passed on to us by genetic transmission ; we receive them by way of the genes that we inherit from our parents .,後者 の 能力 は すべて 遺伝 に よ っ て 私 達 に 伝え られ る 。 つまり 、 親 から 受け つ ぐ 遺伝 子 を 通 し て 私 たち は そう し た 能力 を 受け取 る の で あ る 。,the _UNK of _UNK _UNK is to to to to to to to to to a a _UNK . .,42.133610178577094,0.2,0.14285714285714285
+159,"in other words , i don &apos;t like to work with him .",言い換え れ ば 、 私 は 彼 と 働 き た く な い 。,"_UNK , i i to to to to to . . . _EOS",21.40653504933577,0.3076923076923077,0.3076923076923077
+160,mike managed to carry the suitcase by himself .,マイク は なん と か その スーツケース を 一人 で 運 ん だ 。,what is the _UNK his his his &apos;s . _EOS,26.86834949369088,0.2,0.2222222222222222
+161,we need the receipt mr smith signed .,私 たち は スミス さん が サイン し た 領収 書 が 必要 で す 。,we are have have the when when when the . . _EOS,44.6854966116049,0.25,0.375
+162,they invited me to play cards .,彼 等 は トランプ を し な い か と 私 を 誘 っ て くれ た 。,they have me me a with . . _EOS,27.020399228848724,0.3333333333333333,0.42857142857142855
+163,the sort of information we need is not always available .,私 たち が 必要 と する 情報 は 必ず しも 手 に 入 ら な い 。,we are not not but but _UNK _UNK . . _EOS,58.36291832739953,0.2727272727272727,0.2727272727272727
+164,i helped an old lady across .,老 婦人 が 渡 る の を 助け た 。,i _UNK a _UNK _UNK . _EOS,54.788325947360164,0.2857142857142857,0.2857142857142857
+165,"somehow , all those reasons sound rather far fetched .",何 か 、 全部 、 こじつけ って 感じ が する ん だ けど ・ ・ ・ 。,"what , , , , , _UNK _UNK _UNK _UNK _UNK _UNK _UNK . _EOS",119.7572820489927,0.13333333333333333,0.2
+166,i entrusted my property to him .,彼 に 財産 管理 を 任せ た 。,i _UNK him him in in . . _EOS,27.2337478248199,0.3333333333333333,0.42857142857142855
+167,we must take into account the wishes of all the family in planning a trip .,旅行 を 計画 する 場合 は 、 家族 全員 の 希望 を 考慮 す べ き だ 。,i should to the the the the to the the in . . . _EOS,50.897108571704464,0.26666666666666666,0.25
+168,he dropped out when he was in the 7th grade .,彼 は 中一 の 時 学校 に 来 な く な っ た 。,he came back at at at at . _EOS,36.64638408950483,0.2222222222222222,0.18181818181818182
+169,christmas is a good time to market new toys .,クリスマス は 新し い おもちゃ を うりだ す い い 機会 だ 。,you are to to to new new new . _EOS,22.513959190767537,0.3,0.3
+170,i have been writing letters all morning .,私 は 午前 中 ずっと 手紙 を 書 い て い ま し た 。,i was to in in in in the the . _EOS,61.90452488767442,0.18181818181818182,0.25
+171,the hotel is at the foot of a mountain .,その ホテル は 山 の ふもと に あ り ま す 。,the is is in in the the the . . _EOS,11.152754427333301,0.36363636363636365,0.4
+172,i &apos;m putting up with him tomorrow .,明日 は 彼 の ところ に 泊ま る つもり だ 。,i will like him on tomorrow . . _EOS,16.600024440212955,0.4444444444444444,0.5
+173,twenty @-@ five years from now there will be one retired person for each two working .,今 から ２５ 年 後 に は 、 就業 者 ２人 に つ き 退職 者 １人 の 割合 に な る だ ろ う 。,"it &apos;s to _UNK _UNK , , in the in the _UNK . . _EOS",116.9451803498728,0.06666666666666667,0.058823529411764705
+174,she seems to have been happy .,彼女 は 幸せ で あ っ た よう だ 。,she was not _UNK _UNK . _EOS,11.606752629642347,0.2857142857142857,0.2857142857142857
+175,the main crop of japan is rice .,日本 の 主要 作物 は 米 で あ る 。,japan are are the are are . . _EOS,25.976966322010544,0.3333333333333333,0.375
+176,"everyone , whether an actual or potential patient .",患者 と 名 の つく すべて の 人 。,a is is is is _UNK . . _EOS,78.03501622948431,0.1111111111111111,0.1111111111111111
+177,who am i ?,私 は 誰 な の だ ろ う か 。,how do come ? _EOS,12.44772536376951,0.2,0.25
+178,i &apos;ll be waiting for you at the usual place .,いつ も の 場所 で 待 っ て い ま す 。,i always my my my . . _EOS,180.70900736049296,0.25,0.18181818181818182
+179,the village is connected with our town by a bridge .,その 村 と 我々 の 町 は 橋 で つなが っ て い ま す 。,the my the the the the the the the the the the the . _EOS,90.46947102020519,0.13333333333333333,0.18181818181818182
+180,warning - 18 + only .,十 八 禁 な の で 要 注意 ！,we the to the the the . _EOS,207.42172721606616,0.125,0.16666666666666666
+181,i am leaving for the united states tomorrow .,私 は 明日 アメリカ へ 出発 する 予定 で す 。,i &apos;m to to to to america at school . _EOS,36.002174863593496,0.18181818181818182,0.2222222222222222
+182,greek is difficult to learn .,ギリシャ 語 は 覚え にく い 。,there is is is _UNK . . _EOS,54.032674649090524,0.25,0.3333333333333333
+183,i would like to go to austria in order to study music .,私 は 音楽 の 勉強 に オーストリア へ 行 き た い 。,i want to to to study study . _EOS,74.00917794604518,0.6666666666666666,0.46153846153846156
+184,i received my bonus .,ボーナス を もら っ た 。,i had my _UNK _UNK . _EOS,10.723247504744194,0.42857142857142855,0.6
+185,i like the way she laughs at my jokes .,私 は 私 の ジョーク を 聞 い て 笑 う 時 の 彼女 が 好き だ 。,i &apos;m to my my my my my my . . _EOS,42.51926817417735,0.25,0.3
+186,i heard my name called from behind me .,自分 の 名前 が 後ろ から 呼 ば れ る の が きこえ た 。,i have to you from of of the . _EOS,34.36776457171695,0.3,0.3333333333333333
+187,she has an eye for the beautiful .,彼女 は 審美 眼 を 持 っ て い る 。,she is a _UNK . _EOS,99.90950221629157,0.3333333333333333,0.25
+188,the big ugly tree destroys the beauty of the house .,その 大きな 醜 い 木 が その 家 の 美観 を 損ね て い る 。,the _UNK _UNK the the the the _UNK . _EOS,18.68414634419936,0.4,0.36363636363636365
+189,she fell ill a week ago .,彼女 は １ 週間 前 に 病気 に な っ た 。,she came her before before before before before . _EOS,39.03678236612411,0.2,0.2857142857142857
+190,he is a frank person and easy to talk to .,彼 は ざっくばらん な 人柄 な の で 話 し やす い 。,he is not _UNK _UNK _UNK _UNK . . _EOS,29.871286702402983,0.3,0.2727272727272727
+191,the garden is railed off from the path .,庭 は 柵 で 小道 と 仕切 ら れ て い る 。,the _UNK are _UNK with _UNK . . _EOS,28.078017192417267,0.2222222222222222,0.2222222222222222
+192,i would like your picture .,君 の 写真 が 欲し い の で す が 。,i &apos;d like your your . _EOS,5.951313730269561,0.5714285714285714,0.6666666666666666
+193,he has every reason to quit his job .,彼 が 仕事 を 辞め る の も もっとも だ 。,it is a that he he he is his . _EOS,48.8719651341221,0.2727272727272727,0.3333333333333333
+194,put the book where you found it .,その 本 を もと あ っ た 所 へ 置 き なさ い 。,the the book the book you . _EOS,28.931819896070728,0.5,0.5
+195,i never see this picture without being reminded of my childhood .,この 写真 を 見 る と 、 私 は 必ず 子供 の ころ を 思い出 す 。,i this to to to the the of the the . . _EOS,56.49636576374271,0.3076923076923077,0.3333333333333333
+196,is this the right way to yokohama station ?,横浜 駅 へ 行 く の に は この 道 で い い の で す か 。,how &apos;s the the in in this here _EOS,19.71076986489775,0.2222222222222222,0.2222222222222222
+197,he fell and broke his arm while he was skiing .,彼 は スキー を し て い る とき に 、 転 ん で 腕 を 折 っ た 。,he had a a a a a a a the the . . . _EOS,83.25101279758812,0.13333333333333333,0.18181818181818182
+198,she gave me a look at her new car .,彼女 は 新車 を 見せ て くれ た 。,she was her her her . _EOS,48.076147057639844,0.42857142857142855,0.3
+199,i &apos;d like to have mustard on the side .,マスタード を 別 に 持 っ て き て くださ い 。,please yourself me and _UNK . _EOS,121.07543874413416,0.14285714285714285,0.1
+200,"come what may , i &apos;m ready for it .",何 が 起こ ろ う と も 、 その 覚悟 は でき て い ま す 。,i &apos;m all think the is is . _EOS,109.43163949694117,0.3333333333333333,0.3
+201,he has been in hokkaido before .,彼 は 北海道 に い た こと が あ る 。,he is a of . . _EOS,26.421319869158335,0.2857142857142857,0.2857142857142857
+202,his face and attitude showed the scorn he felt .,彼 の 顔つき や 態度 に は 軽蔑 の 気持ち が 表れ て い た 。,his _UNK was on on the the the . . _EOS,57.427410422139744,0.2727272727272727,0.3
+203,"except for bill , they were all in time .",ビル 以外 は みな 間に合 っ た 。,the were were were for were . . _EOS,46.7951777970044,0.3333333333333333,0.3
+204,parents are usually concerned about their children &apos;s future .,たいてい の 親 は 自分 の 子供 の 将来 が 気 に な る もの で す 。,the _UNK of of are are are . . _EOS,51.684122588942245,0.2,0.2
+205,you know i can &apos;t .,そんな 事 でき な い の あなた 知 っ て で しょ う 。,what you you you such such such a such a . . _EOS,163.02629577474943,0.15384615384615385,0.3333333333333333
+206,"one day , the police raided a whole group of prostitutes , and the girl was among them .",ある 日 の こと 、 警察 が 娼婦 の 集団 を 手入れ し た 。 少女 も その 集団 の 一員 だっ た 。,it was of was to was in was in was in day the day . . _EOS,71.29375955761788,0.29411764705882354,0.2631578947368421
+207,where do you come from ?,どちら の ご 出身 で す か ？,is you you you ? ? _EOS,7.431811713021277,0.2857142857142857,0.3333333333333333
+208,that altered the aspect of the case .,それ で 形勢 が 変わ っ た 。,it was in it . _EOS,132.63666356437912,0.16666666666666666,0.125
+209,i &apos;ve got a bit of an ache in my back .,私 は 背中 が 少し 痛 い 。,i have a little little . _EOS,312.31325179837444,0.42857142857142855,0.25
+210,my father &apos;s success counts for nothing to me .,父 の 成功 は 私 に 何 の 価値 も 無 い 。,my father is to me me . _EOS,72.64251816113408,0.625,0.5
+211,i have a picture of an airport .,私 は 空港 の 写真 を 持 っ て い ま す 。,i have my my my my . . _EOS,25.673550526026307,0.3333333333333333,0.375
+212,what do you intend to do ?,君 は 何 を する つもり な の 。,you will have your your . . _EOS,29.04588020226798,0.125,0.14285714285714285
+213,this is as long as that .,これ と あれ は 同じ 長 さ で す 。,"this is , that will this . _EOS",8.516573929766505,0.5,0.5714285714285714
+214,i read fifty pages further .,私 は 更 に ５０ ページ 読 ん だ 。,i like the the the the the . . _EOS,309.201136044319,0.2,0.3333333333333333
+215,his misspelling of that word eliminated him from the contest .,その 語 の 綴り を 間違 っ て 、 彼 は コンテスト に 失格 し た 。,the the the _UNK the _UNK the . . _EOS,34.42608588631853,0.2,0.18181818181818182
+216,math is the last subject that i want to study .,数学 は 私 が 最も 勉強 し た く な い 教科 で す 。,i will come come come come come come come come than . _EOS,69.57564380010855,0.15384615384615385,0.18181818181818182
+217,he has acted wisely .,彼 は 賢明 に 行動 し た 。,he _UNK to the . . _EOS,50.24775530116487,0.2857142857142857,0.4
+218,i want to surprise him .,私 は 彼 を あっ と 言 わ せ て や り た い 。,i want to to do you him him . . _EOS,70.43176578807447,0.45454545454545453,0.8333333333333334
+219,you shouldn &apos;t eat anything cold .,冷た い 食事 は 、 避け て くださ い 。,please me me a a _UNK . _EOS,233.4885847889483,0.125,0.14285714285714285
+220,he couldn &apos;t help laughing at it .,彼 は それ を 笑 わ ず に い られ な かっ た 。,he was not to it . _EOS,17.222801179524616,0.42857142857142855,0.375
+221,quit lazing around and get moving !,グズグズ し て な い で さっさと 行動 しろ ！,don your your _UNK _UNK _UNK ! _EOS,74.09502642718564,0.125,0.14285714285714285
+222,"japanese companies have set up factories on every continent , and japanese banks help finance many of the world &apos;s major economic programs .",日本 企業 は 全て の 大陸 に 工場 を 設立 し て い る し 、 日本 の 銀行 は 世界 の 主要 な 経済 計画 の 大国 財政 的 な 援助 を し て い る 。,japan japan a many many the the in in in in in the japan . _EOS,140.7004248428834,0.1875,0.125
+223,"at last , we were home !",やっと 帰 っ て き た ぞ ！,it you you ! ! _EOS,160.1305604895008,0.16666666666666666,0.14285714285714285
+224,in spring everything looks bright .,春 に は すべて の もの が 明る く 見え る 。,the man in in the the . _EOS,293.8386807128742,0.25,0.3333333333333333
+225,"miyuki has a camera , but she doesn &apos;t like it .",美由紀 は カメラ を 持 っ て い る 、 しかし 彼女 は それ が 好き で な い 。,_UNK _UNK the to to but a a . . _EOS,54.89714378251882,0.2727272727272727,0.25
+226,where &apos;s the nearest pharmacy ?,ここ から 一番 近 い 薬局 は どこ で す か 。,what &apos;s the the in ? ? ? ? _EOS,16.468835786295877,0.3,0.5
+227,that &apos;s beside the point .,それ は 的外れ だ 。,it &apos;s a _UNK . _EOS,49.382901070928995,0.3333333333333333,0.3333333333333333
+228,how long have you been waiting for the bus ?,バス を どの くらい お 待 ち で す か 。,how you the to a a bus ? _EOS,34.68334801067594,0.5555555555555556,0.5
+229,he burst into tears .,彼 は 突然 わっと 泣 き 出 し た 。,he _UNK his with . . _EOS,23.546323084663072,0.2857142857142857,0.4
+230,thomas could not carry out his task on account of an accident .,トーマス は 事故 の ため に 仕事 を やり遂げ られ な かっ た 。,_UNK was was _UNK in the the the the . _EOS,41.23393430491713,0.09090909090909091,0.07692307692307693
+231,he stood apart from us .,彼 は 我々 から 離れ て 立 っ た 。,he got from from the . . _EOS,17.680955650349542,0.375,0.5
+232,he doesn &apos;t travel much apart from occasional business trips .,彼 は 時々 出張 する こと は 別 と し て あまり 旅 を し な い 。,"he doesn &apos;t _UNK to to , a a a a . . . _EOS",28.528524877569797,0.26666666666666666,0.36363636363636365
+233,he seemed worried about his health .,彼 は 体 を 心配 し て い る 様子 だっ た 。,he was hard with with . . _EOS,30.778381774679605,0.25,0.2857142857142857
+234,she read the letter with her heart beating fast .,彼女 は 胸 を どきどき さ せ て 、 その 手紙 を 読 ん だ 。,she &apos;s the the the the the . . _EOS,23.545115272972275,0.3,0.3
+235,"i &apos;m glad to meet you , too , mr ito .",私 も 伊藤 さん に お 目 に かか れ て 光栄 で す 。,i &apos;s the _UNK _UNK a a _UNK . . _EOS,39.198758403256164,0.18181818181818182,0.16666666666666666
+236,he whispered slyly to me .,彼 は こっそり ささや い た 。,he was his _UNK . _EOS,7.4282475852846215,0.3333333333333333,0.3333333333333333
+237,i have faith in your ability to do the right thing .,あなた は 正し い こと が でき る と 信 じ て い ま す 。,i am you you as as as . . _EOS,96.33618411308795,0.2,0.16666666666666666
+238,i was surprised at you and your brother appearing on tv .,私 は 君 たち 兄弟 が テレビ に 出 て い て ビックリ し た 。,i was _UNK with with the the . . _EOS,52.33988564458434,0.3,0.25
+239,will you excuse me for just a moment ?,ちょっと 失礼 し て よ い で しょ う か 。,how you you it it ? ? _EOS,57.87915649213269,0.25,0.2222222222222222
+240,go ahead with your story .,どうぞ 話 を 続け て 下さ い 。,please yourself the the . . _EOS,37.65548027622611,0.14285714285714285,0.16666666666666666
+241,they attributed the low death rate of infants to the progress of medicine .,彼 ら は 幼児 の 死亡 率 の 低 さ は 医学 の 進歩 の ゆえ と 考え た 。,they _UNK the _UNK _UNK _UNK _UNK _UNK _UNK . _EOS,49.396887079551156,0.2727272727272727,0.21428571428571427
+242,excessive drinking is destructive of our health .,深酒 は 体 に よ く な い 。,_UNK is very very very . . _EOS,66.46730983695669,0.25,0.25
+243,he is at home in american literature .,彼 は 米 文学 に 精通 し て い る 。,he is on to to on . . _EOS,21.64152081977733,0.3333333333333333,0.375
+244,people used to laugh at him behind his back .,人々 は 陰 で 彼 を 嘲笑 し た もの だっ た 。,they _UNK him to to to the . . _EOS,39.60612136850867,0.3,0.3
+245,the men have been shorn of their power .,彼 ら は 権限 を 剥奪 さ れ た 。,they was _UNK _UNK . . _EOS,486.057625222134,0.14285714285714285,0.1111111111111111
+246,my tongue failed me .,私 は 口 が きけ な かっ た 。,i was not . . _EOS,104.29022588057764,0.16666666666666666,0.2
+247,are you referring to me ?,君 は 僕 の こと を 言 っ て い る の か 。,how you know to your ? _EOS,9.4816857082312,0.42857142857142855,0.5
+248,there was a murmur when she entered the room .,彼女 が 部屋 に は い っ た とき 、 ささやき が 聞こえ た 。,when was was was in room . . _EOS,34.23166407566261,0.4444444444444444,0.4
+249,this is longer than any other bridge in the world .,これ は 世界 の どの 橋 より も 長 い 。,this is the the the the in the the . _EOS,18.14447253946923,0.45454545454545453,0.45454545454545453
+250,we agreed among ourselves .,我々 は お 互い に 意見 が 一致 し た 。,we _UNK _UNK to our . . _EOS,126.97496521974128,0.25,0.4
+251,i don &apos;t know which is which .,どっち が どっち な の か 分か ら な い 。,don &apos;t &apos;t who to _UNK . _EOS,24.87991212582817,0.375,0.375
+252,patty is a smart student .,パティー は 利口 な 学生 だ 。,_UNK is a a a . . _EOS,10.247919298221458,0.375,0.5
+253,christi &apos;s mysteries are most decidedly interesting .,クリスティー の 推理 小説 は 断然 面白 い 。,it is is the the the _UNK _UNK _UNK . _EOS,61.52959939734996,0.09090909090909091,0.125
+254,we had much rain last year .,昨年 は 雨 が 多 かっ た 。,we had to rain rain in . _EOS,5.64472387847439,0.5,0.5714285714285714
+255,did you feel the earth shake last night ?,ゆうべ 地震 を かん じ ま し た か 。,have you _UNK _UNK _UNK ? ? _EOS,31.585269548574665,0.25,0.2222222222222222
+256,i really feel for you .,気持ち は よく 分か る よ 。,it &apos;s live today today . . _EOS,20.885497636679823,0.125,0.16666666666666666
+257,he is too tall to stand straight in this room .,彼 は 背 が 高 すぎ て 、 この 部屋 で は まっすぐ に 立て な い 。,he is not but but this this in the room . . _EOS,16.224955788809904,0.46153846153846156,0.5454545454545454
+258,"keisuke has always studied in this mansion . that style known as &apos; home schooling &apos; , right ?",啓介 さん は 、 この お 屋敷 で 、 ずっと お 勉強 し て い る ん で す 。 いわゆる ホーム スクーリング と い う 形 で す ね 。,_UNK is is a a _UNK _UNK this and this a a a _UNK . _EOS,85.87635876585769,0.125,0.10526315789473684
+259,the hound was in full chase of the bear .,猟犬 は 熊 を 必死 に な っ て 追いかけ て い た 。,the _UNK was _UNK _UNK . . _EOS,27.65684176412182,0.375,0.3
+260,people love to inspect each other &apos;s houses .,人 は 互い の 家 を 詳し く 調べ る の が 大好き だ 。,people is a to to people . _EOS,53.27077266811992,0.375,0.3333333333333333
+261,i made efforts to improve my grades .,私 は 成績 を 上げ る よう 努力 し た 。,i have to to _UNK _UNK _UNK . _EOS,16.177190464982584,0.3333333333333333,0.375
+262,he laughed off his own bad reputation .,彼 は 自分 の 悪評 を 一笑 に 付 し た 。,he _UNK his his his his his . _EOS,40.02828718849899,0.3333333333333333,0.375
+263,he told me a long story .,彼 は 私 に 長 い 物語 を 話 し て くれ た 。,he gave me me to to me me . _EOS,24.04781564779974,0.3,0.42857142857142855
+264,"as long as it doesn &apos;t get cold , it &apos;s okay .",寒 く な り さえ し な けれ ば い い の で す 。,i &apos;d to to it it it it . . _EOS,82.48222808375333,0.2727272727272727,0.23076923076923078
+265,i am acquainted with the custom .,私 は その しきたり を よく 知 っ て い る 。,i have the the the _UNK . _EOS,16.348208322838857,0.375,0.42857142857142855
+266,the boy could not so much as write his own name .,その 少年 は 自分 の 名前 さえ 書 く こと が でき な かっ た 。,the could could not that his his . . _EOS,31.740661035952257,0.5,0.4166666666666667
+267,nowadays many people live to be over seventy years old .,今日 で は ７０ 歳 以上 まで 生き る 人 は 多 い 。,we are to to not to it than than than . . . _EOS,60.99569957139994,0.14285714285714285,0.18181818181818182
+268,her beautiful dress drew my attention .,彼女 の 美し い 服 が 私 の 注意 を 引 い た 。,i was a good of my . . _EOS,35.502076372908704,0.2222222222222222,0.2857142857142857
+269,we shall start after breakfast .,朝食 後 、 出発 し ま しょ う 。,let &apos;s eat the . _EOS,23.92828747821434,0.16666666666666666,0.16666666666666666
+270,at times i feel like quitting my job .,私 は ときどき 仕事 を やめ た い 気 が する 。,i am to the the the . . _EOS,168.08625315729915,0.2222222222222222,0.2222222222222222
+271,how did it come out ?,結果 は どう な り ま し た か 。,have have you finished for ? ? _EOS,18.78362994917505,0.125,0.16666666666666666
+272,you are trusted by every one of us .,あなた は 私 たち の 誰 から も 信頼 さ れ て い る 。,you are us of of us . _EOS,34.20057171810024,0.625,0.5555555555555556
+273,the report revealed that many teenagers are alcoholics .,その 報告 書 から １０ 代 の 多く の 子供 が アルコール 中毒 に かか っ て い る こと が 分か っ た 。,the had had _UNK _UNK _UNK _UNK _UNK _UNK the . . . _EOS,37.20070428198413,0.14285714285714285,0.2222222222222222
+274,"he flew to chicago , where he happened to see a friend .",彼 は シカゴ に 飛 ん だ 。 そして そこ で たまたま あ る 友人 に 会 っ た 。,he had that at at at at a for for for . . . _EOS,33.86546954208341,0.2,0.23076923076923078
+275,please leave me alone .,私 を 一人 に し て お い て くださ い 。,please yourself to to . . _EOS,12.631711938813092,0.2857142857142857,0.4
+276,"tamori was born in 1945 , that is , when world war ii ended .",田森 は 、 １９４５ 年 すなわち 第 二 次 世界 大戦 が 終わ っ た 年 に 生まれ た 。,_UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK . . _EOS,27.44345077801626,0.058823529411764705,0.06666666666666667
+277,beware of thefts in a big city .,都会 で は 泥棒 に 気 を つけ な さ い 。,_UNK is not in in on . . _EOS,25.66087620037716,0.2222222222222222,0.25
+278,he easily gets angry at trivial things .,彼 は ちょっと し た こと で すぐ 怒 る 。,he is been he he he is a . _EOS,63.128971048975714,0.2,0.25
+279,he walked all the way home .,彼 は 、 家 まで ずっと 歩 い た 。,he was been to home . . _EOS,13.277075314895919,0.375,0.42857142857142855
+280,her kind action strongly impressed me .,彼女 の 親切 な 行為 に 私 は 強 く 心 を 動か さ れ た 。,her _UNK was me me . . _EOS,26.81642945071886,0.375,0.42857142857142855
+281,women ought to be as glad to be women as men are to be men .,女 は 女 で あ る こと を 、 男 が 男 で あ る こと を 喜 ぶ よう に 喜 ぶ べ き で あ る 。,"the is not to to , , the is is as . . _EOS",46.16486107160087,0.2857142857142857,0.25
+282,it will be ready soon .,すぐ に 出来 ま す 。,i will soon to here here . . . _EOS,16.853726069648516,0.3,0.5
+283,"by the time you come back , i &apos;ll be gone .",きみ が もど っ て 来る ころ に は 、 ぼく は 出かけ て しま っ て い る よ 。,"i &apos;m , , , , , , to in in . . . _EOS",51.31744403548703,0.2,0.25
+284,"the last time i went to china , i visited shanghai .",この 前 中国 へ 行 っ た とき 、 上海 を 訪れ た 。,i went to the went went went to to i to . . . . . . _EOS,40.98416297993113,0.3333333333333333,0.5
+285,we must wait for a few weeks to see the lilacs .,ライラック の 花 を 見 る に は ２、３ 週間 待 た ね ば な ら な い 。,you must to _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK . _EOS,22.57192283895026,0.23076923076923078,0.25
+286,it began to dawn .,夜 が 明け 始め た 。,the sky has in in . . _EOS,282.2287463060109,0.125,0.2
+287,democracy will be victorious in the long run .,けっきょく 、 民主 主義 が 勝利 を 得 る だ ろ う 。,"we can a _UNK , _UNK _UNK the the . . _EOS",20.15132909045431,0.16666666666666666,0.2222222222222222
+288,the two countries negotiated a treaty .,両国 は 条約 を 取り決め た 。,the _UNK _UNK his _UNK . _EOS,12.70811625530138,0.2857142857142857,0.2857142857142857
+289,i don &apos;t feel like eating now .,私 は 今 食べ る 気 に な ら な い 。,i don not to to . . _EOS,12.740893822045106,0.375,0.375
+290,is there anything else you want me to do ?,何 か 他 に 僕 に し て 欲し い こと は な い で す か 。,do you you to to to to with a ? ? _EOS,22.082685876163808,0.3333333333333333,0.4
+291,he has collected twice as many stamps as i have .,彼 は 切手 を 私 の 二 倍 集め て い る 。,he is with of of his . . _EOS,307.19868527945545,0.2222222222222222,0.18181818181818182
+292,"later , chris felt ashamed and apologized and beth forgave him .",後 に な っ て 、 クリス は 自分 の 行い を 恥ずかし く 思 い 、 彼女 に 謝 る と 、 ベス は 彼 を 許 し て くれ ま し た 。,"in , , , the the the was , she she , in to her him . . _EOS",203.98142612642883,0.15789473684210525,0.25
+293,you should on no account cheat in the exam .,決して カンニング を し て は いけ ま せ ん 。,you can &apos;t _UNK the _UNK . . _EOS,35.635190035630785,0.3333333333333333,0.3
+294,the boy lay listening to the radio .,少年 は ラジオ を 聞き ながら 横 に な っ て い た 。,the boy was in to the . . _EOS,11.629200446488467,0.5555555555555556,0.625
+295,how long is the rainbow bridge ?,レインボウ ブリッジ の 長 さ は どの くらい で す か 。,how _UNK the _UNK _UNK _UNK ? ? _EOS,9.43248874448789,0.3333333333333333,0.42857142857142855
+296,he is too dumb to fear danger .,あいつ は 馬鹿 だ から 、 怖 い も の 知 ら ず だ 。,the is is and and and and and . . . _EOS,88.62206273630925,0.16666666666666666,0.25
+297,she forced me to go out with her .,彼女 は 強制 的 に 私 を 一緒 に 連れ出 し た 。,she made me for a _UNK _UNK . _EOS,18.22572573842206,0.3333333333333333,0.3333333333333333
+298,i looked for someone to take her place .,私 は 誰 か が 彼女 の 代わり を する 人 を 探 し た 。,i saw a of of her her . _EOS,29.080915515291874,0.3333333333333333,0.3333333333333333
+299,you will not get there on time .,時間 通り に は 着け な い よ 。,no &apos;s no a to a time time . . _EOS,22.749807918375254,0.18181818181818182,0.25
+300,mr kennedy pointed out our mistakes .,ケネディ 氏 は 、 私 達 の ミス を 指摘 し ま し た 。,_UNK _UNK _UNK _UNK in the the . _EOS,97.78839365552828,0.1111111111111111,0.14285714285714285
+301,he has taken to gardening .,彼 は 庭 いじり を する よう に な っ た 。,he had to his to the the the . . _EOS,113.63531245614938,0.2727272727272727,0.5
+302,you had to study english .,英語 を 勉強 し な けれ ば な ら な かっ た 。,i had to to english . . _EOS,5.801089450394203,0.5,0.6666666666666666
+303,there was eternal twilight in the place .,そこ に は 消え る こと の な い 薄明かり が あ っ た 。,there had no there there there . _EOS,15.879150544475529,0.25,0.25
+304,i &apos;m glad to see you .,私 は あなた に あえ て うれし い 。,i am your you you . _EOS,7.643386601014923,0.42857142857142855,0.42857142857142855
+305,the fisherman cast his line into the water .,漁師 は 釣り糸 を 水中 に 投げ た 。,the _UNK _UNK his _UNK . _EOS,33.88753317994526,0.42857142857142855,0.3333333333333333
+306,this morning it was much cooler than yesterday morning .,今朝 は 昨日 の 朝 より も ずっと 涼し かっ た 。,i have to to this this this this . _EOS,36.99807830014369,0.2,0.2
+307,bill has the makings of an excellent scientist .,ビル は 優秀 な 科学 者 に な る 素質 を 持 っ て い る 。,the has a a a a . . . _EOS,15.264707696221052,0.3,0.3333333333333333
+308,she has a good command of english though she was brought up in japan .,彼女 は 日本 で 育 っ た に も かかわ ら ず 、 英語 を 自由 に 使 い こな す 。,she is she to to for for for for for in . . _EOS,61.86525303568755,0.2857142857142857,0.26666666666666666
+309,"i know him by name , but not by sight .",あの 人 は 顔 は 知 ら な い が 名前 は 知 っ て い る 。,that can can he he is not . _EOS,143.40741408961196,0.2222222222222222,0.18181818181818182
+310,jane kicked at our decision .,ジェーン は 私 たち の 決定 に 反対 し た 。,we were our our our . . _EOS,26.94639774396751,0.25,0.3333333333333333
+311,he keeps a small poultry yard .,彼 は 小さな 鶏舎 を 持 っ て い る 。,he has his _UNK _UNK . _EOS,13.04787756643201,0.2857142857142857,0.2857142857142857
+312,"keep your eyes wide open before marriage , half shut afterwards .",結婚 前 は 両眼 を 大き く 見開 い て おれ 、 その 後 は 、 その 半ば を 閉じ よ 。,the is _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK . . . _EOS,402.9608516627979,0.058823529411764705,0.08333333333333333
+313,i left my hat as i got off the train .,電車 を 降り た とき に 帽子 を 忘れ た 。,i had i had the the when the the the . _EOS,20.635955248947266,0.3333333333333333,0.36363636363636365
+314,tom &apos;s friends called him mr money bags .,トム の 友達 は 彼 の こと を 「 マネー バッグ 」 と 呼 ん だ 。,his don _UNK to to to his _UNK . . _EOS,142.26383308582206,0.09090909090909091,0.1111111111111111
+315,he was so childish that he couldn &apos;t resist temptation .,彼 は あまり に 子供 だ から 誘惑 に かて な かっ た 。,he was no from from a . . _EOS,63.009287574598254,0.3333333333333333,0.2727272727272727
+316,are there any discount tickets for me ?,何 か 割引 切符 は あ り ま す か 。,have you you ? ? _EOS,124.77534867000729,0.16666666666666666,0.125
+317,he turned a deaf ear to my advice .,彼 は 我々 の 忠告 に 耳 を 貸 さ な かっ た 。,he was not to to . . _EOS,33.052299829070215,0.375,0.3333333333333333
+318,i read at least one book every month .,私 は 少な く とも 毎月 １ 冊 は 本 を 読 み ま す 。,i like to the the the the . . _EOS,15.933435841062252,0.2,0.2222222222222222
+319,my sister cheers young sumo wrestlers .,姉 は 若 い 力士 を 応援 し て い ま す 。,i &apos;m looking on on on a . _EOS,87.57982351668176,0.1111111111111111,0.14285714285714285
+320,but his friends call him ken .,しかし 彼 の 友達 は 彼 を ケン と 呼 ぶ 。,his his his his his his his . . _EOS,77.42121874388685,0.2,0.2857142857142857
+321,she complained to him that it was too short a notice .,彼女 は 、 それ は あまり に 急 な 知ら せ だ と 彼 に ぐち を こぼ し た 。,she _UNK him to the the the . . _EOS,53.34601141250201,0.4,0.3333333333333333
+322,turn off the television . i can &apos;t concentrate .,気 が 散 る から テレビ を 消 し て く れ 。,the _UNK will the the the the the . . _EOS,41.19046071005359,0.2727272727272727,0.3
+323,who knows ?,誰 が 知 る もの か 。,who can you some ? _EOS,71.22859426260587,0.3333333333333333,0.6666666666666666
+324,my little brother asked for some money .,弟 が お 金 を 頂戴 と 言 い ま し た 。,i had the money money money money . _EOS,34.13495146377922,0.2222222222222222,0.25
+325,it will make for the society .,それ は 社会 に 寄与 する の だ 。,it &apos;s a to for for . _EOS,16.684748640547824,0.375,0.42857142857142855
+326,i had my picture taken .,私 は 私 の 写真 を と っ て もら い ま し た 。,i was my my my my . _EOS,29.43491425827941,0.375,0.5
+327,he paid me a compliment .,彼 は 私 に お 世辞 を 言 っ た 。,he said me me me . _EOS,3.5039751532761327,0.42857142857142855,0.5
+328,we have got to get him to take that project seriously .,あの プロジェクト に つ い て 彼 を 本気 に さ せ な い と 。,you should not him him his his . . _EOS,151.56500241302538,0.2,0.16666666666666666
+329,there is nobody who fulfils these conditions .,この 条件 に 該当 する 人 は 誰 も い な い 。,there is no _UNK to to the the the . . _EOS,57.02383778017643,0.25,0.375
+330,are you the prophet ?,あなた は 預言 者 で す か 。,do you _UNK a ? _EOS,3.518517595397986,0.3333333333333333,0.4
+331,let sleeping dogs lie .,眠れ る 獅子 は 起こ す な 。,"i can _UNK to , a _UNK . . _EOS",2280.570150603495,0.1,0.2
+332,i think most people are better off now than they used to be .,たいてい の 人 が 以前 より も 暮らし 向き が よ い と 思 う 。,i think a is more than than than than than than than . . _EOS,45.23282183419024,0.26666666666666666,0.2857142857142857
+333,let &apos;s talk it out .,話 を つけ よう じゃ な い か 。,don &apos;t you me me ? ? _EOS,53.4945367843671,0.0,0.0
+334,have you read today &apos;s paper ?,今日 の 新聞 は 読 み ま し た か 。,have you you your in ? ? _EOS,10.62037093555119,0.375,0.42857142857142855
+335,i insist on your being present .,私 は あなた に ぜひ 出席 し て もら い た い 。,i want you you you you you you . _EOS,199.11622526057783,0.2,0.2857142857142857
+336,thank you very much for your thoughtful present .,心づくし の 品 を 頂き ありがとう ござ い ま す 。,_UNK is the the the the _UNK _UNK . _EOS,53.1692968062636,0.1,0.1111111111111111
+337,beth was always up a tree .,ベス は いつ も 途方 に くれ て い た 。,i am always always with . . _EOS,20.799521860421038,0.25,0.2857142857142857
+338,new york is the busiest city in the world .,ニューヨーク は 世界 で 最も にぎやか な 街 だ 。,_UNK is a in in in the _UNK . . _EOS,16.217043624174963,0.36363636363636365,0.4
+339,it follows from this that the company is not responsible for the accident .,この こと から 、 会社 に は 事故 の 責任 が 無 い こと に な る 。,"this to is the , , to to the the the the the . . . _EOS",51.83414116427376,0.29411764705882354,0.35714285714285715
+340,there was no one but wept to hear the story .,その 話 を 聞 い て 泣 か な い 人 は い な かっ た 。,you had not to to the the . . _EOS,42.72352843493333,0.3,0.2727272727272727
+341,mary really takes after her mother .,メアリー は 母親 に 良く 似 て い る 。,there is to to for . . _EOS,32.95874628967201,0.125,0.14285714285714285
+342,i beat him at golf .,私 は ゴルフ で 彼 を 負か し た 。,i _UNK him in the . . _EOS,24.355618821562313,0.375,0.5
+343,the last wound proved fatal .,最後 の 傷 が 致命 的 で あ る と わか っ た 。,the _UNK _UNK _UNK _UNK _UNK _UNK the . . _EOS,84.39472439807054,0.18181818181818182,0.3333333333333333
+344,mr frost is eligible for the post .,フロスト 氏 は その 地位 に つ く 資格 が あ る 。,_UNK _UNK is the the the . . _EOS,47.70374851599882,0.3333333333333333,0.375
+345,a number of passengers were injured in the accident .,その 事故 で たくさん の 乗客 が けが し た 。,we were a of the the the . . _EOS,35.27532857721575,0.5,0.5
+346,i plan to go skiing with my girlfriend .,僕 は ガール フレンド と 一緒 に スキー に 行 く 予定 で す 。,i &apos;ll to to the a next on . . _EOS,31.054698101892132,0.2727272727272727,0.3333333333333333
+347,the automobile industry is one of the main industries in japan .,自動 車 産業 は 日本 の 大きな 産業 の ひと つ で あ る 。,the is are of of _UNK _UNK _UNK . _EOS,48.145044778686604,0.4,0.3333333333333333
+348,some speculators take advantage of the ignorance and helplessness of old people .,相場 師 の 中 に は 老人 の 無知 と 寂し さ に 付け込 む 奴 が い る 。,in _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK,59.15271544538472,0.0,0.0
+349,we can just about read each other &apos;s minds .,彼 と 僕 は ツーカー の 仲 だ 。,what he he a a of . . _EOS,310.05627151666386,0.1111111111111111,0.1
+350,the troops maintained their ground .,部隊 は 陣地 を 守 り 続け た 。,_UNK _UNK _UNK _UNK _UNK . . _EOS,28.503570703771263,0.125,0.16666666666666666
+351,marry first and love will follow .,まず 結婚 しろ 。 そう すれ ば 愛情 と は あと で 生まれ て くる 。,"if the is , , , , , you you and and and and and and . . _EOS",528.6704453064672,0.10526315789473684,0.2857142857142857
+352,"besides being ignorant , he is too proud .",彼 は 無知 で あ る 上 に 、 傲慢 で も あ る 。,"he is a , , , is a . . _EOS",83.99963163928797,0.36363636363636365,0.4444444444444444
+353,you &apos;d better go there on foot .,そこ に は 歩 い て 行 っ た 方 が い い よ 。,you had better go go to there . . _EOS,5.877406144850658,0.5,0.625
+354,it was careless of you to miss the bus .,バス に 乗り 遅れ る なんて 君 は 不 注意 だっ た ね 。,it was that that to to the the bus . _EOS,10.59365745869974,0.5454545454545454,0.6
+355,in my analysis i rely considerably on the types of authoritarian behaviour first analyzed by kurz .,分析 に お い て は 、 クルツ に よ っ て 最初 に 分析 さ れ た 権威 的 行動 の 類型 に 負 っ て い る 部分 が 大き い 。,it &apos;s no _UNK in in in the the in the in in is _UNK . _EOS,45.26535125693914,0.17647058823529413,0.17647058823529413
+356,when will you be free ?,君 は いつ 暇 に な り ま す か 。,has you you with . ? _EOS,10.559712916908548,0.2857142857142857,0.3333333333333333
+357,let &apos;s get together tomorrow .,明日 集ま り ま しょ う 。,i &apos;ll tomorrow . . _EOS,18.56886678113557,0.3333333333333333,0.3333333333333333
+358,you really put that much in the sandwich ?,そんな に 沢山 パン に 乗 る ん か？,he get get out _UNK _UNK . . _EOS,35.21667956180816,0.0,0.0
+359,he is a proficient pianist .,彼 は 熟練 の ピアニスト だ 。,he is a _UNK _UNK . _EOS,3.87585517051721,0.5714285714285714,0.6666666666666666
+360,i cannot help falling in love with you .,私 は あなた を 好き に な ら ず に は い られ な い 。,i cannot not to to . . _EOS,56.281396278215695,0.375,0.3333333333333333
+361,i think the thai food at this place is seasoned so japanese will like it .,やはり 、 ここ の タイ 料理 の 味付け は 、 日本 人 好み に し て あ る ん だ ね 。,"the _UNK of of , the , the the the _EOS",68.69620735436999,0.09090909090909091,0.0625
+362,his depression came to an end when she kissed him .,彼 の 憂うつ は 彼女 が キス を する と 晴れ た 。,his _UNK _UNK his his _UNK . . _EOS,73.73751929377394,0.2222222222222222,0.18181818181818182
+363,"jane didn &apos;t play tennis , did she ?",ジェーン は テニス を し ま せ ん で し た ね 。,i don &apos;t you in in a . . _EOS,52.293267527449714,0.1,0.1111111111111111
+364,give me something to eat .,私 に 何 か 食べ物 を 下さ い 。,give me me me me . _EOS,5.164108477146083,0.42857142857142855,0.5
+365,we watch television every evening .,私 達 は 毎晩 テレビ を 見 る 。,we are _UNK _UNK . _EOS,45.63205138248756,0.3333333333333333,0.3333333333333333
+366,"as soon as we get the answer , we &apos;ll phone you .",僕 たち に 答え が わか っ た ら すぐ に 君 に 電話 する よ 。,we will when when when when the the the . . _EOS,36.63323672384874,0.25,0.23076923076923078
+367,what we need now is a rest .,今 私 たち に 必要 な の は 休息 で す 。,what are not are to to . . _EOS,16.726913006105825,0.2222222222222222,0.25
+368,i don &apos;t think we should do that .,そう する べ き で は な い と 思 う 。,you think you you you you you not . . _EOS,10.00460579310079,0.18181818181818182,0.2222222222222222
+369,i came to the conclusion that i had been deceived .,私 は だま さ れ て い た の だ と い う 結論 に 達 し た 。,i _UNK to to to the was . _EOS,67.44491719786704,0.4444444444444444,0.36363636363636365
+370,i met ken yesterday .,昨日 ケン に 会 っ た 。,i met yesterday yesterday . _EOS,6.011423106237259,0.6666666666666666,0.8
+371,"insure it , please .",保険 を かけ て 下さ い 。,give me me the the . _EOS,71.95641278141318,0.14285714285714285,0.2
+372,have a nice vacation .,良 い 休暇 を 。,a a a a a . . _EOS,82.68178790172445,0.25,0.4
+373,we found out recently that some foxes live here on this mountain .,この 山 に は 狐 が 住 ん で い る と い う こと が 最近 わか っ た 。,this had _UNK to be be be . . _EOS,87.86971872334856,0.2,0.15384615384615385
+374,he was too tired to walk any more .,彼 は 疲れ すぎ て い て もう それ 以上 歩け な かっ た 。,he was no to to it . _EOS,7.724070741012215,0.5,0.4444444444444444
+375,plants are nourished by earth .,植物 は 土壌 で 育 つ 。,this is _UNK in . . _EOS,22.67757532322051,0.14285714285714285,0.16666666666666666
+376,he suffered a nervous breakdown .,彼 は 神経 衰弱 に な っ て い た 。,he was not the . . _EOS,17.460226926622738,0.2857142857142857,0.3333333333333333
+377,miho is the girl i like best .,ミホ は 私 が 一番 好き な 女の子 で す 。,_UNK _UNK is a but _UNK . . _EOS,24.73000313364881,0.2222222222222222,0.25
+378,he seems to be rich .,彼 は 金持ち で あ る よう に 思 わ れ る 。,he &apos;s be to be . . _EOS,10.10116607025008,0.5,0.6666666666666666
+379,john claimed that the dishonest salesman had tricked him into buying a useless piece of machinery .,ジョン は 、 その 不 誠実 な セールスマン が 、 彼 を だま し て 無用 な 機械 を 買 わ せ た と 主張 し た 。,"john had the could was , , could could could the the . . _EOS",77.59506880450508,0.26666666666666666,0.23529411764705882
+380,i shudder to think of it .,それ を 考え る と ぞっと する 。,it you it it it it . _EOS,9.313050570787091,0.25,0.2857142857142857
+381,his life is free from care .,彼 の 生活 は 心配 が な い 。,he has no nothing to . . _EOS,27.527485865437388,0.125,0.14285714285714285
+382,"drive more carefully , or you will run into trouble .",もっと 注意 深 く 運転 し な けれ ば 、 事故 に 巻き込 ま れ ま す よ 。,"if you you , , , , , you you in . . _EOS",68.23072586944728,0.21428571428571427,0.2727272727272727
+383,there is a strong presumption against its truth .,それ が 間違 っ て い る 可能 性 が 非常 に 強 い 。,it that that that that is a it . . . _EOS,85.32354860818735,0.25,0.3333333333333333
+384,i am badly in need of your help .,私 は あなた の 助け が とても 必要 で す 。,i am to to my . . _EOS,97.27188188957355,0.375,0.3333333333333333
+385,she was transferred from the head office to a branch office last month .,彼女 は 先月 本社 から 支社 へ 転勤 さ せ られ た 。,she was _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK . . _EOS,34.34834046242649,0.23076923076923078,0.21428571428571427
+386,"i met the man , who showed me the way .",私 は その 男 に 会 っ た 。 する と 彼 は 私 に 道 を 教え て くれ た 。,he asked me me to the the to the the the the the . _EOS,47.720321039173314,0.26666666666666666,0.36363636363636365
+387,what slips in and out of view in the background is the real estate slump of recent years .,背後 に 見え隠れ する の は 近年 の 不 動産 不況 だ 。,_UNK _UNK _UNK _UNK _UNK is to _UNK _UNK . _EOS,58.823961377087954,0.18181818181818182,0.10526315789473684
+388,she painted the wall red .,彼女 は その 塀 を 赤 く 塗 っ た 。,she got the the the . _EOS,16.6610138278574,0.42857142857142855,0.5
+389,they had to clean out the goods in stock within the year .,彼 ら は 年内 に 在庫 品 の かた を つけ な けれ ば な ら な かっ た 。,they had to _UNK the the the the the _UNK . _EOS,39.9245565182227,0.5,0.46153846153846156
+390,carlos climbed the mountain .,カルロス は 山 を 登 っ た 。,the _UNK made a a a . . _EOS,301.12609783773,0.2222222222222222,0.4
+391,i don &apos;t know any french .,私 は フランス 語 は 少し も 知 ら な い 。,i don not not a a . . _EOS,6.934959931739924,0.3333333333333333,0.42857142857142855
+392,i can &apos;t tell his twin sisters apart .,彼 の 双子 の 妹 たち を 区別 する こと が でき な い 。,you can &apos;t _UNK his his his his . . . _EOS,10.573039841396398,0.3333333333333333,0.4444444444444444
+393,we learn to read and write .,我々 は 読み書き を なら う 。,we will _UNK _UNK . . _EOS,139.96513490353036,0.2857142857142857,0.2857142857142857
+394,try to speak english as often as possible if you want to improve your english .,英語 を 上達 さ せ た い なら 、 でき る だけ 英語 を 話 す よう に つとめ なさ い 。,if you you you english you you you you not you you . _EOS,46.50270536296974,0.2857142857142857,0.25
+395,people can turn to the law if they want to correct an injustice .,人 は 不正 を 正 し た い とき は 法律 に 頼 る こと が 出来 る 。,you can the _UNK _UNK _UNK _UNK _UNK _UNK . _EOS,94.00014275505842,0.2727272727272727,0.21428571428571427
+396,there were no hats in that store that fit me .,あの 店 に は 私 に 合 う 帽子 は な かっ た 。,that was was me to me to . . _EOS,58.822996893233444,0.3,0.2727272727272727
+397,it happened that the day was my birthday .,たまたま その 日 は 私 の 誕生 日 で し た 。,the day me me me my day . . _EOS,19.14869172938265,0.4,0.4444444444444444
+398,i &apos;d like to pay by check .,小切手 で 支払 い た い の で す が 。,i want a at at at the the . . _EOS,28.568300088341957,0.18181818181818182,0.25
+399,travel agencies &apos; profits soared .,旅行 会社 の 収益 が 急増 し た 。,a the the in the the . . _EOS,93.63208776856482,0.1111111111111111,0.16666666666666666
+400,the allusion was not lost on me .,何 の こと を い っ て い る の か 私 に は ピン と き た 。,i was to to you . my _EOS,37.0689444553997,0.25,0.25
+401,aren &apos;t you going to get mr tate ?,テイト 氏 を つれ て き て いただけ ま せ ん か 。,will you you your your ? ? _EOS,45.833941642316276,0.25,0.2222222222222222
+402,there are innumerable stars in the galaxy .,銀河 系 に は 無数 の 星 が あ る 。,_UNK is is in of the . _EOS,10.549022098025254,0.375,0.375
+403,"having been to the temple before , i know the way .",以前 に その 寺 へ 行 っ た こと が あ る の で 、 私 は 道 を 知 っ て い る 。,there to the the the the the the the the the . . _EOS,27.164296282525832,0.2857142857142857,0.3333333333333333
+404,"&quot; done ! &quot; says the angel , and disappears in a cloud of smoke and a bolt of lightning .",「 あっぱれ ！ 」 天使 は そう い う と 、 稲妻 が 走 る もやもや の 煙 の 中 へ 消え て い っ た 。,"&quot; _UNK , , , , , _UNK the the the _UNK . . _EOS",59.56083964137621,0.26666666666666666,0.19047619047619047
+405,no need to worry .,悪 い ところ は あ り ま せ ん 。,i have no any . . _EOS,25.749217409009514,0.2857142857142857,0.4
+406,i can not get enough sleep any more .,最近 私 は よく 眠れ な い 。,i don &apos;t &apos;t i . . _EOS,45.703053371212974,0.25,0.2222222222222222
+407,bring it to me .,それ を 私 の ところ に 持 っ て 来 なさ い 。,do it it . . _EOS,3.8363756570936114,0.3333333333333333,0.4
+408,bird watching is a nice hobby .,野鳥 観察 は すばらし い 趣味 で す 。,_UNK _UNK is very in in _UNK . _EOS,138.74559234454227,0.2222222222222222,0.2857142857142857
+409,it snowed from monday to friday .,雪 は 月曜 から 金曜 まで 降 っ た 。,the policeman went to to the the . . _EOS,149.9410776485859,0.2,0.2857142857142857
+410,he acquainted her with his plan .,彼 は 彼女 に 自分 の 計画 を 知 ら せ た 。,he had her her her her her her . _EOS,67.20987553970821,0.3,0.42857142857142855
+411,he will stay in tokyo for several weeks .,彼 は 数 週間 東京 に 滞在 する だ ろ う 。,he will be for for for a . . _EOS,18.54537151261288,0.4,0.4444444444444444
+412,you have only to wait for her return .,あなた は 彼女 が 帰 っ て くる の を 待ち さえ すれ ば よ い 。,you may help to to the the the . . _EOS,21.02996324587089,0.2727272727272727,0.3333333333333333
+413,he says daring things .,彼 は 大胆 な こと を 言 う 。,let will speak be . . _EOS,23.360560102970712,0.14285714285714285,0.2
+414,paul is by far the most charming boy in our school .,ポール は 学校 で 飛び抜け て 魅力 の あ る 生徒 だ 。,the is is the in in in the _UNK . _EOS,46.34640982217464,0.36363636363636365,0.3333333333333333
+415,that &apos;s against the contract .,それ で は 契約 と 違 う 。,that &apos;s it it it . _EOS,16.68037218569263,0.42857142857142855,0.5
+416,"i &apos;ll always love you , no matter what happens .",貴方 を 愛 する こと に 変わり は な い から 。,it is no no to to his to his . . _EOS,77.23253875812739,0.16666666666666666,0.18181818181818182
+417,calcium is absent from his diet .,彼 の 食事 に は カルシウム が 欠け て い る 。,his is his his . his _EOS,97.12088334614631,0.42857142857142855,0.42857142857142855
+418,who knows what has become of him ?,彼 が どう な っ た か だれ が し っ て い よう か 。,why he he he he ? _EOS,46.5061791119394,0.14285714285714285,0.125
+419,i cannot continue my class with you chattering to one another .,君 達 が お しゃべり を し て い て は 、 授業 が でき ま せ ん 。,you can you you you you you you you you . . _EOS,48.47409553398648,0.15384615384615385,0.16666666666666666
+420,it looks like janet &apos;s going to be kicked upstairs .,ジャネット が 昇進 する みたい よ 。,you can &apos;t be that a . . _EOS,121.51710007868456,0.2222222222222222,0.18181818181818182
+421,i have hard stools .,固 い 便 が 出 ま す 。,i &apos;m a . . _EOS,7.0442425610676995,0.3333333333333333,0.4
+422,i heard that she came here .,彼女 が き た と 、 き い た 。,i had that she she she she . _EOS,15.505959303500099,0.4444444444444444,0.5714285714285714
+423,the state government deprived the civil rights of their citizen .,州 政府 は 彼 から 市民 権 を 剥奪 し た 。,the was his his his his his his . . _EOS,83.16908551590079,0.18181818181818182,0.18181818181818182
+424,spiders spin webs .,クモ は 網 を 張 る 。,_UNK _UNK _UNK _UNK . _EOS,3.7748386402410956,0.16666666666666666,0.25
+425,they are always quarreling .,彼 ら は いつ も けんか ばかり し て い た 。,they was always with with with . . _EOS,53.12626479985892,0.3333333333333333,0.6
+426,it is rude to stare at strangers .,じろじろ 見 る の は 無 作法 で あ る 。,that is is _UNK _UNK a _UNK . _EOS,36.02297701869299,0.2222222222222222,0.25
+427,"she &apos;s alive ! she was drowning , but her father saved her .",彼女 は 生き て い る ！ おぼれ かけ て い た ん だ が 、 父親 が 助け た ん だ 。,"she she _UNK the , she she she , , , and , . _EOS",25.328615134782098,0.26666666666666666,0.2857142857142857
+428,he checked that all the doors were safely shut .,彼 は ドア が すべて 安全 に 閉ま っ て い る か どう か 確かめ た 。,he was the he he he he the . . _EOS,34.68979567237424,0.2727272727272727,0.3
+429,the students met here to hear the speech .,学生 たち は その 演説 を 聞 く ため に ここ に 集ま っ た 。,the went went the to the to the . . _EOS,22.400891270068374,0.36363636363636365,0.4444444444444444
+430,he turned his attention to the picture .,彼 は その 絵 に 目 を 向け た 。,he gave his a of of . . _EOS,11.531202518239015,0.3333333333333333,0.375
+431,what time do you get up every morning ?,あなた は 毎朝 何 時 に 起き ま す か 。,will you you you to at ? ? _EOS,8.63733325575612,0.2222222222222222,0.2222222222222222
+432,i have a suspicious nature .,私 は 疑い 深 い 性格 で す 。,i want a of of . _EOS,14.602605370196416,0.42857142857142855,0.5
+433,jim has a white hat on his head .,ジム は 白 い 帽子 を かぶ っ て い る 。,the people a _UNK . . _EOS,101.04951538903455,0.2857142857142857,0.2222222222222222
+434,the two ladies smiled at each other .,２人 の 女性 は お 互い 微笑み あ っ た 。,the _UNK _UNK _UNK _UNK . . _EOS,96.8475317262258,0.25,0.25
+435,aren &apos;t you ready ?,準備 は まだ 出来 て い ま せ ん か 。,is is in in ? ? _EOS,42.2876716266151,0.14285714285714285,0.2
+436,he didn &apos;t have a grain of courage .,彼 は 勇気 の かけら も な かっ た 。,he was no _UNK _UNK _UNK _UNK . . _EOS,7.823812368929694,0.2,0.2222222222222222
+437,i can &apos;t fancy going out in this weather .,この 天気 に 外出 する など 想像 も でき な い 。,i can &apos;t be this on on on the this . . _EOS,20.876949741433553,0.38461538461538464,0.5
+438,the oil companies increased the price of gas again .,石油 会社 は 再び ガソリン の 価格 を 上げ た 。,the all _UNK the _UNK in the the the the . . _EOS,100.76478427975204,0.23076923076923078,0.3
+439,he is ignorant of the world .,彼 は 世界 を 知 ら な い 。,he must not money the money . _EOS,9.1270490828442,0.375,0.42857142857142855
+440,"&quot; get rid of it , of course ! &quot; answered the farmer .",「 もちろん 、 捨て て く れ 」 と 農家 が 答え ま し た 。,"&quot; i , , , , in &quot; . . . _EOS",55.56520644652931,0.3333333333333333,0.2857142857142857
+441,have you finished your lunch yet ?,あなた は もう 昼食 を おえ ま し た か 。,did you you you your ? _EOS,7.625534415878935,0.42857142857142855,0.42857142857142855
+442,concert tickets are on sale at this office .,演奏 会 の 切符 は 当 事務 所 で 販売 し て い ま す 。,the _UNK _UNK _UNK _UNK _UNK _UNK _UNK . _EOS,88.81913803856234,0.1,0.1111111111111111
+443,make sure that all of you arrive at nine .,皆 さん 間違い な く ９ 時 に 着 く よう に し て くださ い 。,please get to at at the the . . _EOS,69.91491630056392,0.2,0.2
+444,do you believe in god ?,君 は 神 の 存在 を 信 じ ま す か 。,do you you in ? ? _EOS,7.899910556012221,0.5714285714285714,0.6666666666666666
+445,both of them are kind and honest .,彼 ら は 二人 とも 親切 で 正直 で す 。,they are not they in in in . . _EOS,45.90493745789107,0.2,0.25
+446,you have a standing invitation to join us .,いつ お い で くださ っ て も 歓迎 いた し ま す 。,i always you to to a . . _EOS,70.61631467010046,0.4444444444444444,0.4444444444444444
+447,the jet made a whining sound as it soared overhead .,上空 を ジェット 機 が キーン と い う 音 を 立て て 飛 ん で い っ た 。,the _UNK were the the the the the . . _EOS,18.747981326074765,0.18181818181818182,0.18181818181818182
+448,where can i get some help ?,どこ に 行 っ た ら 助け て もらえ ま す か 。,will you you you you you that ? _EOS,39.977785826732784,0.1111111111111111,0.14285714285714285
+449,but you don &apos;t want to bend the knees too much .,しかし 君 は あまり 膝 を 曲げ た く な い で しょ う 。,you will will you you you you you . _EOS,98.59876321967634,0.2,0.16666666666666666
+450,his success encouraged me very much .,彼 の 成功 は 大いに 私 の 励み に な っ た 。,his his his me to to me . _EOS,14.210879176144298,0.3333333333333333,0.42857142857142855
+451,take the skin off before you eat the apple .,リンゴ を 食べ る 前 に 皮 を む き なさ い 。,it &apos;s a the the time before . . _EOS,42.64756086311791,0.4,0.4
+452,is it necessary to change trains along the way ?,途中 で 乗り換え が 必要 で す か 。,can you you to to ? _EOS,154.77648714076363,0.2857142857142857,0.2
+453,fortunately i was able to finish my work without any serious errors .,幸い 大過 な く 仕事 を 終わ ら せ る こと が でき た 。,i was could the the the the _UNK . . _EOS,113.25202330530898,0.2727272727272727,0.23076923076923078
+454,the roses are in bloom .,バラ が 咲 い て い る 。,i &apos;m _UNK _UNK . _EOS,50.209717904413864,0.16666666666666666,0.16666666666666666
+455,i had never seen such an exciting rugby match as one i saw yesterday .,私 は 昨日 見 た 試合 ほど おもしろ い ラグビー の 試合 を 見 た こと が な かっ た 。,i was to to the the the the the the the the . . _EOS,55.76308623835644,0.13333333333333333,0.13333333333333333
+456,the house was raided by the police .,その 家 は 警察 の 手入れ を うけ た 。,the _UNK _UNK the the _UNK . . _EOS,9.308589664493997,0.3333333333333333,0.375
+457,he was borne away by an impulse .,彼 は 衝動 に 駆 ら れ た 。,he was _UNK to _UNK _UNK . _EOS,5.715065491305908,0.375,0.375
+458,yesterday mary gave me a book the cover of which was blue .,昨日 メアリー は 表紙 が 青 い 本 を くれ た 。,mary _UNK _UNK _UNK _UNK . _EOS,183.6903782039869,0.2857142857142857,0.15384615384615385
+459,i &apos;m constantly telling her to behave herself .,彼女 に 御 行儀 よ く し なさ い と いつ も 言 っ て い る 。,she always as as as her . _EOS,76.6004829152866,0.25,0.2222222222222222
+460,"if you hold on a moment , i will get jane on the phone .",少し 待 っ て くれ た ら 、 ジェーン を 電話 に 出 さ せ ま す 。,"we we have , , , you you you . . _EOS",58.279844793111046,0.25,0.2
+461,i meet her on occasion at a beauty shop .,彼女 と は ときおり 美容 院 で 会 い ま す 。,she is she she she she she is . _EOS,74.79472280672869,0.1,0.1
+462,however the protagonist is aware of his own mistakes .,しかし 、 主人 公 は 自ら の 誤り に 気づ い て い る 。,"_UNK , is is is the the . . _EOS",50.06424945279595,0.3,0.3
+463,i cannot abide his manner .,私 は 彼 の 態度 に 我慢 でき な い 。,i cannot &apos;t him him . . _EOS,33.26781909414129,0.375,0.5
+464,"he is the kind of man who cannot do anything in moderation , but always goes to extremes .",彼 は 何事 も 程々 と い う 事 を 知 ら ず 、 いつ も 極端 に 走 っ て しま う 。,"he &apos;s a _UNK and , he he he he a . . _EOS",82.56169711004443,0.21428571428571427,0.15789473684210525
+465,you must be careful in crossing the road .,道路 を 横断 する とき に は 注意 し なさ い 。,take the to you you you you . . _EOS,69.25941158657035,0.3,0.3333333333333333
+466,mind your own business !,自分 の こと だけ 気 に かけ ろ ！,don &apos;t you your you you . . _EOS,268.5538106960092,0.1111111111111111,0.2
+467,my friend wants a car of his own .,友人 は マイ カー を 欲し が っ て い る 。,the _UNK _UNK _UNK _UNK . _EOS,127.85135606418093,0.14285714285714285,0.1111111111111111
+468,she gave a pluck at my elbow .,彼女 は 私 の ひじ を 引っ張 っ た 。,she got my my . _EOS,58.31652324955915,0.5,0.375
+469,i will stand by you whatever happens .,何 が 起こ ろ う と も 、 私 は あなた の 味方 を する 。,if you you your your . _EOS,67.8570534306203,0.2857142857142857,0.25
+470,will you have some coffee ?,コーヒー を 飲 み ま す か 。,can you a a for ? ? _EOS,7.684838876559406,0.25,0.3333333333333333
+471,i understand how you feel .,気持ち を 御 察し し ま す 。,i will my my the the . _EOS,94.29811674726213,0.25,0.3333333333333333
+472,they say we &apos;re going to get some showers .,にわか 雨 に な る らし い で す よ 。,it &apos;s it it it . . . _EOS,53.01574288721171,0.1111111111111111,0.1
+473,"whatever you &apos;re doing , starting off on the right foot is essential .",何事 も 最初 が 肝心 だ よ な 。,a is a of of of of _UNK . _EOS,168.95902319916914,0.2,0.14285714285714285
+474,the word lends itself to misuse by beginners .,その 語 は 誤用 さ れ やす い 。,that is is _UNK _UNK _UNK . _EOS,72.80290464324266,0.125,0.1111111111111111
+475,they built the ship in accordance with the plans .,彼 ら は 設計 図 どおり に 船 を 作 っ た 。,they _UNK _UNK _UNK _UNK _UNK _UNK . _EOS,46.858113723997114,0.2222222222222222,0.2
+476,i saw her just the other day .,ほんの ２、３ 日 前 に 彼女 に 会 っ た 。,i had a before before before before . . _EOS,20.149499788107196,0.2,0.25
+477,which gate is that ?,それ は どの ゲート で す か 。,how it it ? ? _EOS,37.173006519241355,0.16666666666666666,0.2
+478,i will give up drinking at any cost .,私 は 何 と し て も 酒 を 止め る つもり で す 。,i will to to to with with as . . _EOS,28.529027010723915,0.2727272727272727,0.3333333333333333
+479,do you offer any night tours ?,夜 の ツアー は あ り ま す か 。,is you _UNK _UNK ? ? _EOS,27.30347061601289,0.2857142857142857,0.2857142857142857
+480,you &apos;re old enough to know better .,もっと 分別 が あ っ て も い い 年頃 だ よ 。,"i &apos;s a a to , it . . . _EOS",37.84126790394239,0.18181818181818182,0.25
+481,take a no . 5 bus at this bus stop .,この 停留 所 から ５ 番 目 の バス に 乗り なさ い 。,this _UNK _UNK _UNK _UNK _UNK _UNK _UNK . . _EOS,124.1461028811428,0.2727272727272727,0.2727272727272727
+482,it seemed that he was short of money .,彼 に は お 金 が 足り な い よう だっ た 。,he had no not money money . _EOS,61.66859680237342,0.375,0.3333333333333333
+483,does he need to help her ?,彼 は 彼女 を 援助 し て や る 必要 が あ り ま す か 。,do he have her her ? _EOS,13.181596987047532,0.42857142857142855,0.42857142857142855
+484,it &apos;s only a slight cold .,軽 い 風邪 で す 。,i &apos;m is a is . . _EOS,14.613082017402052,0.25,0.2857142857142857
+485,the whole soccer team was on cloud nine after winning the championship .,サッカー チーム 全体 が 優勝 し て 浮き浮き し て た 。,the the the the the the the the . . . . _EOS,64.33228101892952,0.23076923076923078,0.23076923076923078
+486,how do you like this town ?,この 町 は 気 に 入 り ま し た か 。,how did you this this ? ? _EOS,7.141107584284809,0.5,0.5714285714285714
+487,winter is gone .,冬 は 過ぎ去 っ た 。,that was . . _EOS,60.255303314249645,0.2,0.25
+488,i cannot manage without his support .,彼 の 助け 無し に は 、 や っ て いけ な い 。,"he is not , you you . . _EOS",27.26479153758057,0.1111111111111111,0.14285714285714285
+489,"this hall holds a maximum of 1,000 people .",この ホール は 最大 で １０００ 人 収容 でき る 。,this is is _UNK _UNK _UNK _UNK _UNK . _EOS,25.961296125380763,0.2,0.2222222222222222
+490,what was the weather report ?,天気 予報 は どう で し た か 。,how did you the the ? _EOS,17.724729762545213,0.2857142857142857,0.3333333333333333
+491,time after time i &apos;ve invited them to come over and visit us but time and time again they &apos;ve never come .,再三 彼 ら を 招待 し た が 決して こ な かっ た 。,i had &apos;t _UNK to _UNK _UNK _UNK . . _EOS,622.5071497055437,0.2727272727272727,0.13043478260869565
+492,everyone recognized his skill .,誰 も が 彼 の 技術 を 認め た 。,i _UNK his his his . _EOS,62.05465814924748,0.2857142857142857,0.4
+493,you &apos;ll go to school tomorrow .,貴方 は 、 明日 学校 に 行 く だ ろ う 。,let &apos;s going to school school . _EOS,6.6667554072875195,0.375,0.42857142857142855
+494,this data is immaterial to the argument .,この データ は その 議論 に と っ て 重要 だ 。,this is is to to the . _EOS,18.74141525819626,0.625,0.625
+495,do you see her often ?,彼女 と は よく 会 い ま す か 。,do she she she come ? ? _EOS,17.095734754637597,0.25,0.3333333333333333
+496,they are faced with a serious situation .,彼 ら は 容易 な ら ぬ 事態 に 直面 し て い る 。,they are not they their their the . _EOS,14.448559648242583,0.3333333333333333,0.375
+497,much time was wasted .,多く の 時間 が 無駄 に な っ た 。,many _UNK many of of the . . _EOS,258.9745310661788,0.1111111111111111,0.2
+498,whatever i have is yours .,僕 の もの は 全て 君 の 物 だ 。,my your are _UNK . _EOS,82.64704875564522,0.16666666666666666,0.16666666666666666
+499,i like my steak medium .,ステーキ は 中位 で 焼 い て くださ い 。,i like the _UNK with . _EOS,14.120544000434798,0.42857142857142855,0.5

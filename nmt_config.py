@@ -116,10 +116,9 @@ dropout_ratio=0
 
 # default model - no attention
 # when implementing attention use either - SOFT_ATTN or HARD_ATTN
-use_attn = NO_ATTN
-# TODO attention flag
 # ===================
-# use_attn = SOFT_ATTN
+# use_attn = NO_ATTN
+use_attn = SOFT_ATTN
 # ==================
 '''
 KEEP this flag true to avoid losing earlier trained models

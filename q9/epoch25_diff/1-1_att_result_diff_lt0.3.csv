@@ -1,0 +1,3 @@
+,fr,en,hypo,No_att_hypo,prec_diff,prec,No_att_prec,rec_diff,rec,No_att_rec,pplx_diff,pplx,No_att_pplx
+52,急 い で する 事 が あ る 。,i have an urgent matter to attend to .,i &apos;m a to to . . _EOS,there is a in in . . _EOS,0.375,0.5,0.125,0.3333333333333333,0.4444444444444444,0.1111111111111111,-78.89265940440521,54.510981907537406,133.4036413119426
+239,ちょっと 失礼 し て よ い で しょ う か 。,will you excuse me for just a moment ?,will you you me a ? ? _EOS,how you you it it ? ? _EOS,0.375,0.625,0.25,0.33333333333333337,0.5555555555555556,0.2222222222222222,-19.97084191316823,37.90831457896445,57.87915649213268

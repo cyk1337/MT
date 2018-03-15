@@ -457,8 +457,8 @@ def predict(s=NUM_TRAINING_SENTENCES, num=NUM_DEV_SENTENCES,
                                              p_filt=p_filt, r_filt=r_filt,
                                              sample=sample)
 
-                result['fr'].append(line_fr.decode())
-                result['en'].append(line_en.decode())
+                result['fr'].append(line_fr)
+                result['en'].append(line_en)
                 result['prec'].append(prec)
                 result['rec'].append(rec)
                 result['hypo'].append(hypothesis)
@@ -467,7 +467,7 @@ def predict(s=NUM_TRAINING_SENTENCES, num=NUM_DEV_SENTENCES,
                 metrics["tp"].append(tp)
                 metrics["t"].append(t)
                 filter_count += (1 if f else 0)
-        save_result(result, csv_name=name_to_log+'.csv', subdir='ATT', save_dir='q9')
+        save_result(result, csv_name="{}-{}_{}.csv".format(num_layers_enc, num_layers_dec, attn_post[use_attn]), subdir='ATT', save_dir='q9')
 
     if display:
         print("sentences matching filter = {0:d}".format(filter_count))

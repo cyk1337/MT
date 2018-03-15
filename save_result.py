@@ -26,8 +26,7 @@ import matplotlib.pyplot as plt
 import os
 import pandas as pd
 
-
-result={'fr':[], 'en':[], 'prec':[],'rec':[]}
+result={'fr':[], 'en':[], 'hypo':[],'prec':[],'rec':[]}
 
 
 save_dir='q9'
@@ -66,20 +65,24 @@ def compute_diff(subdir='ATT'):
         if filename[-4:] != '.csv': continue
         name=filename[:-4]
         csv_file = os.path.join(subdir, filename)
-        data[name] = pd.read_csv(csv_file, encoding = 'utf8')
+        data[name] = pd.read_csv(csv_file)
     return data
 
-data = compute_diff()
-file_att='1-1_NO_ATTN'
-file_noatt='1-1_ATTN'
-prec_cond = data[file_att]['prec'] - data[file_noatt]['prec']> 0.2
-rec_cond = data[file_att]['rec'] - data[file_noatt]['rec']> 0.2
-cond = prec_cond & rec_cond
-#     pass
-att_result = data[file_att][cond]
-no_att_result = data[file_noatt][cond]
+if __name__=='__main__':
+    data = compute_diff()
+    file_att = '1-1_NO_ATTN'
+    file_noatt = '1-1_SOFT_ATTN'
+    prec_cond = data[file_att]['prec'] - data[file_noatt]['prec'] > 0.2
+    rec_cond = data[file_att]['rec'] - data[file_noatt]['rec'] > 0.2
+    cond = prec_cond & rec_cond
+    #     pass
+    att_result = data[file_att][cond]
+    no_att_result = data[file_noatt][cond]
 
-att_result[['No_att_prec','No_att_rec', 'No_att_hypo']] = no_att_result[['prec','rec','hypo']]
-print(att_result)
-print('len:', len(att_result))
-att_result.to_csv(os.path.join(save_dir, '1-1_att_result.csv'))
+    att_result[['No_att_prec', 'No_att_rec', 'No_att_hypo']] = no_att_result[['prec', 'rec', 'hypo']]
+    print(att_result)
+    print('len:', len(att_result))
+    try:
+        att_result.to_csv(os.path.join(save_dir, '1-1_att_result.csv'))
+    except:
+        print('Error when saving csv!')
